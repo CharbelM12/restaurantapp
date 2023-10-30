@@ -16,5 +16,6 @@ const addressSchema = new Schema({
     ref: "User",
   },
 });
+addressSchema.index({userId:1})
 addressSchema.index({ location: "2dsphere" });
 module.exports = mongoose.model("Address", addressSchema);

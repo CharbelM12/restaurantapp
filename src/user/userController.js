@@ -18,7 +18,10 @@ class UserController {
         req.body,
         config.adminRole
       );
-      res.cookie("accessToken", accessToken, { httpOnly: config.httpOnlyCookieValue, maxAge: config.AccessTokenCookieMaxAge });
+      res.cookie("accessToken", accessToken, {
+        httpOnly: config.httpOnlyCookieValue,
+        maxAge: config.AccessTokenCookieMaxAge,
+      });
       res.cookie("refreshToken", refreshToken, {
         httpOnly: config.httpOnlyCookieValue,
         maxAge: userConfig.refreshTokenCookieMaxAge,

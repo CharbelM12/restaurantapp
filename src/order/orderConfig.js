@@ -5,5 +5,5 @@ module.exports = {
   branchMaxDistance: 5000,
   branchMissingValue: null,
   branchIsOpen: true,
-  orderItemsMinLengthAndMinQuantityValue:1,
+  orderItemsMinLengthAndMinQuantityValue: 1,
 };

@@ -5,7 +5,7 @@ const config = require("../configurations/config");
 const order = require("../order/orderModel");
 const addressConfig = require("./addressConfig");
 class AddressService {
-  async getAddresses(userId, addressId,page,limit) {
+  async getAddresses(userId, addressId, page, limit) {
     const matchStage = { userId: new mongoose.Types.ObjectId(userId) };
     addressId
       ? (matchStage._id = new mongoose.Types.ObjectId(addressId))
@@ -20,7 +20,7 @@ class AddressService {
           location: 1,
           userId: 1,
         },
-      },   
+      },
       { $skip: (page - 1) * limit },
       { $limit: limit },
     ]);
@@ -67,7 +67,7 @@ class AddressService {
       );
     }
   }
-  async deleteAddress(addressId,userId) {
+  async deleteAddress(addressId, userId) {
     const pendingOrder = await order.findOne({
       addressId: new mongoose.Types.ObjectId(addressId),
       status: config.pendingStatus,
@@ -80,7 +80,7 @@ class AddressService {
     } else {
       return await address.deleteOne({
         _id: new mongoose.Types.ObjectId(addressId),
-        userId:userId
+        userId: userId,
       });
     }
   }

@@ -8,8 +8,8 @@ class BranchService {
   async getBranches(branchId, page, limit) {
     const matchStage = {};
     branchId
-    ? (matchStage._id = new mongoose.Types.ObjectId(branchId))
-    : undefined;
+      ? (matchStage._id = new mongoose.Types.ObjectId(branchId))
+      : undefined;
     return await branch.aggregate([
       { $match: { ...matchStage } },
       {
@@ -37,7 +37,7 @@ class BranchService {
       phoneNumber: reqBody.phoneNumber,
       services: reqBody.services,
       createdBy: userId,
-    }).save()
+    }).save();
   }
   async updateBranch(branchId, reqBody, userId) {
     const updateData = {};
@@ -59,7 +59,7 @@ class BranchService {
       } else {
         updateData.location = undefined;
       }
-      return  await branch.updateOne(
+      return await branch.updateOne(
         {
           _id: branchId,
         },
@@ -69,7 +69,6 @@ class BranchService {
           updatedBy: userId,
         }
       );
-      
     }
   }
   async deleteBranch(branchId) {

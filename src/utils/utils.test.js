@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 const jwt = require("jsonwebtoken");
 const generateTokens = require("./jwt");
 const userToken = require("../userToken/userTokenModel");
-const config=require("../configurations/config")
+const config = require("../configurations/config");
 
 jest.mock("jsonwebtoken");
 jest.mock("../userToken/userTokenModel");

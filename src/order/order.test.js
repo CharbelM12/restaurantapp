@@ -146,7 +146,7 @@ describe("orderService", () => {
     it("should return the order that corresponds to the orderId provided", async () => {
       order.aggregate.mockResolvedValueOnce([mockOrder]);
 
-      const result = await orderService.adminOrders(mockOrder._id);
+      const result = await orderService.adminOrders(mockOrder._id,config.defaultPageNumber,config.defaultPagelimit);
 
       expect(result).toEqual([mockOrder]);
       expect(order.aggregate).toHaveBeenCalledWith([
@@ -158,13 +158,15 @@ describe("orderService", () => {
         orderAggregation.addressLookup,
         orderAggregation.addressUnwind,
         orderAggregation.orderProject,
+        { $skip: (config.defaultPageNumber - 1) * config.defaultPagelimit },
+        { $limit: config.defaultPagelimit },
       ]);
     });
 
     it("should return all orders when orderId is not provided", async () => {
       order.aggregate.mockResolvedValueOnce([mockOrder]);
 
-      const result = await orderService.adminOrders(undefined);
+      const result = await orderService.adminOrders(undefined,config.defaultPageNumber,config.defaultPagelimit);
 
       expect(result).toEqual([mockOrder]);
       expect(order.aggregate).toHaveBeenCalledWith([
@@ -176,12 +178,14 @@ describe("orderService", () => {
         orderAggregation.addressLookup,
         orderAggregation.addressUnwind,
         orderAggregation.orderProject,
+        { $skip: (config.defaultPageNumber - 1) * config.defaultPagelimit },
+        { $limit: config.defaultPagelimit },
       ]);
     });
     it("should return an empty array if no order was made", async () => {
       order.aggregate.mockResolvedValueOnce([]);
 
-      const result = await orderService.adminOrders(undefined);
+      const result = await orderService.adminOrders(undefined,config.defaultPageNumber,config.defaultPagelimit);
 
       expect(result).toEqual([]);
       expect(order.aggregate).toHaveBeenCalledWith([
@@ -193,6 +197,8 @@ describe("orderService", () => {
         orderAggregation.addressLookup,
         orderAggregation.addressUnwind,
         orderAggregation.orderProject,
+        { $skip: (config.defaultPageNumber - 1) * config.defaultPagelimit },
+        { $limit: config.defaultPagelimit },
       ]);
     });
   });

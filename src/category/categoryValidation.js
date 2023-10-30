@@ -1,6 +1,6 @@
 const Joi = require("joi");
 Joi.objectId = require("joi-objectid")(Joi);
-const config=require("../configurations/config")
+const config = require("../configurations/config");
 
 const createCategory = {
   categoryName: Joi.string().required(),

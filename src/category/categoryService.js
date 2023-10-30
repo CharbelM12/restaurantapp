@@ -18,7 +18,7 @@ class CategoryService {
       : undefined;
     return await category.aggregate([
       { $match: matchStage },
-      {$sort:{displayOrder:1}},
+      { $sort: { displayOrder: 1 } },
       { $skip: (page - 1) * limit },
       { $limit: limit },
     ]);

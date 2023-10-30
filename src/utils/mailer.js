@@ -1,7 +1,7 @@
 const config = require("../configurations/config");
 const nodemailer = require("nodemailer");
-const errorHandler=require("../errors");
-const logger=require("../utils/logger")
+const errorHandler = require("../errors");
+const logger = require("../utils/logger");
 const transporter = nodemailer.createTransport({
   service: config.service,
   auth: {

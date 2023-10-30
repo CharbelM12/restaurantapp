@@ -49,7 +49,7 @@ class OrderService {
       };
     }
   }
-  async adminOrders(orderId) {
+  async adminOrders(orderId, page, limit) {
     const matchStage = {};
     orderId
       ? (matchStage._id = new mongoose.Types.ObjectId(orderId))
@@ -63,6 +63,8 @@ class OrderService {
       orderAggregation.addressLookup,
       orderAggregation.addressUnwind,
       orderAggregation.orderProject,
+      { $skip: (page - 1) * limit },
+      { $limit: limit },
     ]);
   }
   async createOrder(reqBody, userId) {

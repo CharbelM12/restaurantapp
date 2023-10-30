@@ -12,7 +12,7 @@ class ItemController {
         req.query.page || config.defaultPageNumber,
         parseInt(req.query.limit) || config.defaultPagelimit
       );
-      res.status(200).send(displayedItems);
+      return res.status(200).send(displayedItems);
     } catch (error) {
       next(error);
     }
@@ -20,7 +20,7 @@ class ItemController {
   async createItem(req, res, next) {
     try {
       await itemService.createItem(req.body, req.userId);
-      res.end();
+      return res.end();
     } catch (error) {
       next(error);
     }

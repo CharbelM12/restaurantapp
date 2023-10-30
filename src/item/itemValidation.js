@@ -38,11 +38,6 @@ const itemValidation = {
       page: Joi.number().positive().min(1),
       limit: Joi.number().positive().min(1),
     })
-  },
-  addImage:{
-   file:Joi.object({
-    reqFilePath:Joi.string().regex(/\.(jpg|jpeg|png|gif|bmp)$/i).required()
-   })
   }
 };
 

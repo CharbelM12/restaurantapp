@@ -1,4 +1,5 @@
 const Joi = require("joi");
+const userConfig = require("./userConfig");
 Joi.objectId = require("joi-objectid")(Joi);
 
 const userValidation = {
@@ -6,8 +7,14 @@ const userValidation = {
     body: Joi.object({
       email: Joi.string().trim().email().normalize().required(),
       password: Joi.string().trim().required(),
-      firstName: Joi.string().min(2).trim().required(),
-      lastName: Joi.string().min(2).trim().required(),
+      firstName: Joi.string()
+        .min(userConfig.firstAndlastNamesMinLength)
+        .trim()
+        .required(),
+      lastName: Joi.string()
+        .min(userConfig.firstAndlastNamesMinLength)
+        .trim()
+        .required(),
     }),
   },
   loginValidation: {
@@ -20,8 +27,8 @@ const userValidation = {
     query: Joi.object({
       userId: Joi.objectId(),
       email: Joi.string().trim().email().normalize(),
-      firstName: Joi.string().min(2),
-      lastName: Joi.string().min(2),
+      firstName: Joi.string().min(userConfig.firstAndlastNamesMinLength),
+      lastName: Joi.string().min(userConfig.firstAndlastNamesMinLength),
     }),
   },
   disableOrEnableUser: {
@@ -36,7 +43,7 @@ const userValidation = {
       dateOfBirth: Joi.date().iso(),
       phoneNumber: Joi.string(),
       favoriteItems: Joi.array()
-        .min(1)
+        .min(userConfig.favoriteItemsMinLength)
         .items(
           Joi.object({
             _id: Joi.objectId().required(),

@@ -75,7 +75,12 @@ describe("addressService", () => {
     it("should return an empty array if the user has not created any address", async () => {
       address.aggregate.mockResolvedValueOnce([]);
 
-      const result = await addressService.getAddresses(mockUserId,undefined, config.defaultPageNumber,config.defaultPagelimit);
+      const result = await addressService.getAddresses(
+        mockUserId,
+        undefined,
+        config.defaultPageNumber,
+        config.defaultPagelimit
+      );
 
       expect(result).toEqual([]);
       expect(address.aggregate).toHaveBeenCalledWith([

@@ -10,5 +10,7 @@ module.exports = {
   enable: false,
   resetPasswordTokenExpiry: 3600,
   tokenFormat: "hex",
-  refreshTokenCookieMaxAge:8.64e7,
+  refreshTokenCookieMaxAge: 8.64e7,
+  firstAndlastNamesMinLength: 2,
+  favoriteItemsMinLength: 1,
 };

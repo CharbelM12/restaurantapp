@@ -19,18 +19,18 @@ module.exports = {
     status: 401,
     message: "Unauthorized",
   },
-  invalidToken:{
-    status:404,
-    message:"the token you have entered is invalid"
+  invalidToken: {
+    status: 404,
+    message: "the token you have entered is invalid",
   },
   itemMissing: {
     status: 404,
     message: "No item found",
   },
-   emailMissing: {
+  emailMissing: {
     status: 404,
     message: "No account associated with this email address was found",
-},
+  },
   orderBranchMissing: {
     status: 404,
     message: "Sorry we don't have any brand close to your location",
@@ -58,5 +58,5 @@ module.exports = {
   disabled: {
     status: 423,
     message: "You account has been disabled.",
-  }
+  },
 };
