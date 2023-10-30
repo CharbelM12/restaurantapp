@@ -38,6 +38,6 @@ const orderSchema = new Schema({
 });
 orderSchema.index({userId:1})
 orderSchema.index({addressId:1})
-orderSchema.index({ranchId:1})
+orderSchema.index({branchId:1})
 orderSchema.index({status:1})
 module.exports = mongoose.model("Order", orderSchema);

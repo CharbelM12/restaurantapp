@@ -20,6 +20,7 @@ const itemSchema = new Schema({
   },
   imageUrl: String,
 });
+itemSchema.index({price:1})
 itemSchema.index({ categoryId: 1 });
 itemSchema.index({
   itemName: "text",
