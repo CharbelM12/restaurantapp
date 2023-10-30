@@ -1,0 +1,1685 @@
+{"level":"debug","message":"Tue Sep 05 2023 22:20:11 GMT+0300","timestamp":"2023-09-05T19:20:11.275Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-05T19:20:11.278Z"}
+{"level":"debug","message":"2023-09-05T19:20:39.946Z","timestamp":"2023-09-05T19:20:39.947Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-05T19:20:39.950Z"}
+{"level":"debug","message":"2023-09-05T19:21:07.978Z","timestamp":"2023-09-05T19:21:07.978Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-05T19:21:07.981Z"}
+{"level":"debug","message":"2023-09-05T21:13:42.030Z","timestamp":"2023-09-05T21:13:42.031Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-05T21:13:42.033Z"}
+{"level":"debug","message":"2023-09-05T21:15:15.562Z","timestamp":"2023-09-05T21:15:15.563Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-05T21:15:15.566Z"}
+{"level":"debug","message":"2023-09-05T21:17:04.175Z","timestamp":"2023-09-05T21:17:04.176Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-05T21:17:04.180Z"}
+{"level":"debug","message":"2023-09-06T09:09:44.649Z","timestamp":"2023-09-06T09:09:44.650Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-06T09:09:44.652Z"}
+{"level":"debug","message":"2023-09-06T09:19:11.221Z","timestamp":"2023-09-06T09:19:11.222Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-06T09:19:11.225Z"}
+{"level":"debug","message":"2023-09-06T09:24:00.674Z","timestamp":"2023-09-06T09:24:00.675Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-06T09:24:00.679Z"}
+{"level":"debug","message":"2023-09-06T13:23:25.876Z","timestamp":"2023-09-06T13:23:25.877Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-06T13:23:25.879Z"}
+{"level":"debug","message":"2023-09-06T13:32:40.940Z","timestamp":"2023-09-06T13:32:40.941Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-06T13:32:40.944Z"}
+{"level":"debug","message":"2023-09-06T14:06:28.929Z","timestamp":"2023-09-06T14:06:28.930Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-06T14:06:28.932Z"}
+{"level":"debug","message":"2023-09-06T14:07:57.579Z","timestamp":"2023-09-06T14:07:57.580Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-06T14:07:57.583Z"}
+{"level":"debug","message":"2023-09-06T14:08:11.683Z","timestamp":"2023-09-06T14:08:11.684Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-06T14:08:11.688Z"}
+{"level":"debug","message":"2023-09-06T14:11:45.562Z","timestamp":"2023-09-06T14:11:45.563Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-06T14:11:45.565Z"}
+{"level":"debug","message":"2023-09-06T14:12:03.543Z","timestamp":"2023-09-06T14:12:03.544Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-06T14:12:03.547Z"}
+{"level":"debug","message":"2023-09-06T14:12:15.236Z","timestamp":"2023-09-06T14:12:15.236Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-06T14:12:15.240Z"}
+{"level":"debug","message":"2023-09-06T14:12:40.962Z","timestamp":"2023-09-06T14:12:40.963Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-06T14:12:40.965Z"}
+{"level":"debug","message":"2023-09-06T14:12:55.618Z","timestamp":"2023-09-06T14:12:55.618Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-06T14:12:55.621Z"}
+{"level":"debug","message":"2023-09-06T14:13:31.904Z","timestamp":"2023-09-06T14:13:31.905Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-06T14:13:31.907Z"}
+{"level":"debug","message":"2023-09-06T14:30:44.365Z","timestamp":"2023-09-06T14:30:44.366Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-06T14:30:44.370Z"}
+{"level":"debug","message":"2023-09-06T14:39:58.380Z","timestamp":"2023-09-06T14:39:58.380Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-06T14:39:58.384Z"}
+{"level":"debug","message":"2023-09-06T14:54:19.937Z","timestamp":"2023-09-06T14:54:19.938Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-06T14:54:19.940Z"}
+{"level":"debug","message":"2023-09-06T15:47:04.984Z","timestamp":"2023-09-06T15:47:04.985Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-06T15:47:04.988Z"}
+{"level":"debug","message":"2023-09-06T15:47:33.118Z","timestamp":"2023-09-06T15:47:33.119Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-06T15:47:33.122Z"}
+{"level":"debug","message":"2023-09-06T15:48:59.257Z","timestamp":"2023-09-06T15:48:59.258Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-06T15:48:59.260Z"}
+{"level":"debug","message":"2023-09-06T16:01:07.819Z","timestamp":"2023-09-06T16:01:07.820Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-06T16:01:07.823Z"}
+{"level":"debug","message":"2023-09-06T16:01:34.832Z","timestamp":"2023-09-06T16:01:34.834Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-06T16:01:34.839Z"}
+{"level":"debug","message":"2023-09-06T16:16:03.694Z","timestamp":"2023-09-06T16:16:03.695Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-06T16:16:03.698Z"}
+{"level":"debug","message":"2023-09-06T16:16:26.681Z","timestamp":"2023-09-06T16:16:26.683Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-06T16:16:26.685Z"}
+{"level":"debug","message":"2023-09-06T16:16:46.232Z","timestamp":"2023-09-06T16:16:46.233Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-06T16:16:46.236Z"}
+{"level":"debug","message":"2023-09-06T16:17:52.910Z","timestamp":"2023-09-06T16:17:52.911Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-06T16:17:52.914Z"}
+{"level":"debug","message":"2023-09-06T16:26:29.664Z","timestamp":"2023-09-06T16:26:29.665Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-06T16:26:29.668Z"}
+{"level":"debug","message":"2023-09-06T16:27:04.731Z","timestamp":"2023-09-06T16:27:04.731Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-06T16:27:04.734Z"}
+{"level":"debug","message":"2023-09-06T16:27:22.432Z","timestamp":"2023-09-06T16:27:22.433Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-06T16:27:22.435Z"}
+{"level":"debug","message":"2023-09-06T16:28:18.740Z","timestamp":"2023-09-06T16:28:18.740Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-06T16:28:18.743Z"}
+{"level":"debug","message":"2023-09-06T16:28:50.893Z","timestamp":"2023-09-06T16:28:50.893Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-06T16:28:50.896Z"}
+{"level":"debug","message":"2023-09-06T16:29:24.409Z","timestamp":"2023-09-06T16:29:24.410Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-06T16:29:24.414Z"}
+{"level":"debug","message":"2023-09-06T16:29:31.926Z","timestamp":"2023-09-06T16:29:31.927Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-06T16:29:31.929Z"}
+{"level":"debug","message":"2023-09-06T17:04:43.751Z","timestamp":"2023-09-06T17:04:43.752Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-06T17:04:43.756Z"}
+{"level":"debug","message":"2023-09-06T17:08:15.447Z","timestamp":"2023-09-06T17:08:15.448Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-06T17:08:15.451Z"}
+{"level":"debug","message":"2023-09-06T17:10:54.259Z","timestamp":"2023-09-06T17:10:54.260Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-06T17:10:54.263Z"}
+{"level":"debug","message":"2023-09-06T17:11:52.313Z","timestamp":"2023-09-06T17:11:52.313Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-06T17:11:52.316Z"}
+{"level":"debug","message":"2023-09-06T20:14:39.844Z","timestamp":"2023-09-06T20:14:39.845Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-06T20:14:39.847Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-08T17:31:25.246Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-08T17:31:25.259Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-08T18:10:40.947Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-08T18:10:40.971Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-08T18:11:10.981Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-08T18:11:10.999Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-08T18:11:17.092Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-08T18:11:17.130Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-08T18:11:37.316Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-08T18:11:37.340Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-08T18:12:09.412Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-08T18:12:09.425Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-08T18:14:32.550Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-08T18:14:32.584Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-08T18:15:18.708Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-08T18:15:18.728Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-08T18:15:38.927Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-08T18:15:38.969Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-09T07:10:35.987Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-09T07:10:36.003Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-09T07:35:43.819Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-09T07:35:43.834Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-09T07:35:49.772Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-09T07:35:49.785Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-09T07:42:59.344Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-09T07:42:59.356Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-11T09:50:33.016Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-11T09:50:33.029Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-11T10:07:36.754Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-11T10:07:36.769Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-11T10:08:32.114Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-11T10:08:32.146Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-11T10:10:05.072Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-11T10:10:05.090Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-11T10:10:52.867Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-11T10:10:52.885Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-11T10:16:25.874Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-11T10:16:25.893Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-11T15:04:26.111Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-11T15:04:26.134Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-11T15:06:27.346Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-11T15:06:27.360Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-11T15:06:34.996Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-11T15:06:35.012Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-11T15:07:51.913Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-11T15:07:51.938Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-11T15:15:33.197Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-11T15:15:33.214Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-11T15:18:18.369Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-11T15:18:18.392Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-11T15:21:46.857Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-11T15:21:46.876Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-11T15:22:41.455Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-11T15:22:41.475Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-11T15:24:59.543Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-11T15:24:59.559Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-11T15:26:29.693Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-11T15:26:29.709Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-11T15:40:57.850Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-11T15:40:57.876Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-11T15:41:35.667Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-11T15:41:35.688Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-11T15:45:55.632Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-11T15:45:55.659Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-11T15:50:53.879Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-11T15:50:53.895Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-11T16:19:43.329Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-11T16:19:43.346Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-11T16:24:48.766Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-11T16:24:48.785Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-11T16:26:01.292Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-11T16:26:01.311Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-11T16:29:14.605Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-11T16:29:14.647Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-11T16:31:16.973Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-11T16:31:16.991Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-11T16:32:06.219Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-11T16:32:06.232Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-11T16:43:25.026Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-11T16:43:25.052Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-11T16:43:46.467Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-11T16:43:46.491Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-11T16:44:15.168Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-11T16:44:15.195Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-11T16:44:32.351Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-11T16:44:32.373Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-11T16:45:45.520Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-11T16:45:45.540Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-11T16:46:28.579Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-11T16:46:28.603Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-11T16:47:11.122Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-11T16:47:11.146Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-12T13:14:03.148Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-12T13:14:03.162Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-12T13:15:11.508Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-12T13:15:11.523Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-12T13:15:27.813Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-12T13:15:27.829Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-12T13:15:53.282Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-12T13:15:53.296Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-12T13:27:36.739Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-12T13:27:36.752Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-12T13:27:51.345Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-12T13:27:51.361Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-12T13:30:21.198Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-12T13:30:21.213Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-12T13:32:08.604Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-12T13:32:08.619Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-12T13:34:03.883Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-12T13:34:03.900Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-12T13:48:04.995Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-12T13:48:05.012Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-12T13:48:30.823Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-12T13:48:30.837Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-12T13:49:28.998Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-12T13:49:29.024Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-12T13:49:43.304Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-12T13:49:43.323Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-12T18:09:51.754Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-12T18:09:51.776Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-12T18:23:52.045Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-12T18:23:52.070Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-12T18:24:42.492Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-12T18:24:42.522Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-12T18:25:47.249Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-12T18:25:47.271Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-12T18:29:55.678Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-12T18:29:55.696Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-12T18:30:30.498Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-12T18:30:30.510Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-12T18:30:52.582Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-12T18:30:52.596Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-12T18:31:10.918Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-12T18:31:10.941Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-12T18:31:27.681Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-12T18:31:27.706Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-12T18:33:13.207Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-12T18:33:13.219Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-12T19:11:33.982Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-12T19:11:33.996Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-12T19:14:27.838Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-12T19:14:27.852Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-12T20:27:07.739Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-12T20:27:07.757Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-12T20:28:05.002Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-12T20:28:05.021Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-12T20:42:58.736Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-12T20:42:58.763Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-12T20:44:06.562Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-12T20:44:06.580Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-12T20:45:36.887Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-12T20:45:36.918Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-12T20:46:32.074Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-12T20:46:32.108Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-12T20:47:11.641Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-12T20:47:11.657Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-12T20:47:30.909Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-12T20:47:30.930Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-13T08:04:08.924Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-13T08:04:08.941Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-13T08:05:51.143Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-13T08:05:51.156Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-13T08:06:51.090Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-13T08:06:51.102Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-13T08:17:01.570Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-13T08:17:01.581Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-13T08:17:45.759Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-13T08:17:45.772Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-13T08:19:07.760Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-13T08:19:07.773Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-13T08:19:20.449Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-13T08:19:20.469Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-13T08:19:51.495Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-13T08:19:51.509Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-13T08:21:19.671Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-13T08:21:19.683Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-13T08:21:44.071Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-13T08:21:44.084Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-13T08:22:06.875Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-13T08:22:06.888Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-13T08:22:54.485Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-13T08:22:54.498Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-13T08:23:20.620Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-13T08:23:20.633Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-13T08:23:40.766Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-13T08:23:40.778Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-13T08:31:20.980Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-13T08:31:21.004Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-13T08:33:27.719Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-13T08:33:27.740Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-13T08:35:29.422Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-13T08:35:29.441Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-13T08:41:06.634Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-13T08:41:06.646Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-13T08:41:18.424Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-13T08:41:18.436Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-13T08:43:09.994Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-13T08:43:10.008Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-13T08:48:15.204Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-13T08:48:15.217Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-13T08:52:30.487Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-13T08:52:30.499Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-13T09:13:05.827Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-13T09:13:05.847Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-13T12:11:48.651Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-13T12:11:48.689Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-13T12:33:03.166Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-13T12:33:03.190Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-13T16:09:52.728Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-13T16:09:52.742Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-13T16:27:51.865Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-13T16:27:51.882Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-13T16:29:03.617Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-13T16:29:03.629Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-13T16:33:06.886Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-13T16:33:06.900Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-13T16:33:46.941Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-13T16:33:46.953Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-13T16:39:46.365Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-13T16:39:46.377Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-13T16:45:18.052Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-13T16:45:18.065Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-13T16:46:05.049Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-13T16:46:05.063Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-13T16:48:06.506Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-13T16:48:06.521Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-13T16:48:53.561Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-13T16:48:53.576Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-13T16:57:57.570Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-13T16:57:57.584Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-13T16:58:11.973Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-13T16:58:11.986Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-13T16:59:58.731Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-13T16:59:58.745Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-13T17:03:02.914Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-13T17:03:02.928Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-13T17:04:16.654Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-13T17:04:16.674Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-13T17:04:56.784Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-13T17:04:56.797Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-13T17:12:36.145Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-13T17:12:36.164Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-13T17:13:18.800Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-13T17:13:18.820Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-13T17:29:22.406Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-13T17:29:22.421Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-15T13:06:31.426Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-15T13:06:31.446Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-15T13:09:09.846Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-15T13:09:09.863Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-15T13:16:05.638Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-15T13:16:05.656Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-15T13:16:35.152Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-15T13:16:35.166Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-15T13:16:45.333Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-15T13:16:45.350Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-15T13:16:57.582Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-15T13:16:57.599Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-15T13:31:38.941Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-15T13:31:38.961Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-15T13:35:00.817Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-15T13:35:00.838Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-15T13:35:21.887Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-15T13:35:21.909Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-15T13:36:18.292Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-15T13:36:18.313Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-15T13:41:00.786Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-15T13:41:00.806Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-15T13:41:32.604Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-15T13:41:32.625Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-15T13:41:51.732Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-15T13:41:51.749Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-15T13:43:58.600Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-15T13:43:58.622Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-15T13:58:04.612Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-15T13:58:04.632Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-15T13:58:17.695Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-15T13:58:17.716Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-15T13:58:26.978Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-15T13:58:26.996Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-15T14:11:53.366Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-15T14:11:53.387Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-15T14:12:37.617Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-15T14:12:37.638Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-15T14:14:46.429Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-15T14:14:46.444Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-15T14:16:15.830Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-15T14:16:15.864Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-15T14:16:18.458Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-15T14:16:18.478Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-15T14:17:32.681Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-15T14:17:32.701Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-15T14:17:38.245Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-15T14:17:38.313Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-15T14:36:06.901Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-15T14:36:06.920Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-15T15:17:33.763Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-15T15:17:33.778Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-15T15:18:22.217Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-15T15:18:22.229Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-15T15:18:43.962Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-15T15:18:43.975Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-15T15:46:11.546Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-15T15:46:11.558Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-15T15:46:24.494Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-15T15:46:24.508Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-15T15:47:03.337Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-15T15:47:03.351Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-15T15:47:19.148Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-15T15:47:19.163Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-15T15:48:05.777Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-15T15:48:05.792Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-15T15:48:17.183Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-15T15:48:17.198Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-15T15:48:52.496Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-15T15:48:52.509Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-15T15:49:00.340Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-15T15:49:00.352Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-15T15:49:21.242Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-15T15:49:21.255Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-15T15:58:15.062Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-15T15:58:15.075Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-15T16:18:14.086Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-15T16:18:14.104Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-15T16:21:56.716Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-15T16:21:56.734Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-15T16:22:06.418Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-15T16:22:06.430Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-15T16:22:32.877Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-15T16:22:32.891Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-15T16:45:21.955Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-15T16:45:21.967Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-15T16:47:24.467Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-15T16:47:24.480Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-15T16:49:19.698Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-15T16:49:19.710Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-15T16:49:56.036Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-15T16:49:56.048Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-15T16:52:42.300Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-15T16:52:42.318Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-15T17:02:39.157Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-15T17:02:39.170Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-15T17:02:55.326Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-15T17:02:55.343Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-15T17:03:50.012Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-15T17:03:50.027Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-15T17:04:19.344Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-15T17:04:19.355Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-15T17:08:43.127Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-15T17:08:43.139Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-15T17:09:48.121Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-15T17:09:48.134Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-15T17:16:23.752Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-15T17:16:23.765Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-15T17:17:13.966Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-15T17:17:13.979Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-15T18:20:06.184Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-15T18:20:06.208Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-15T18:20:49.690Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-15T18:20:49.713Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-15T18:22:19.917Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-15T18:22:19.934Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-15T18:22:27.952Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-15T18:22:27.968Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-15T19:08:19.549Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-15T19:08:19.563Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-15T19:08:31.224Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-15T19:08:31.249Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-15T19:10:51.637Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-15T19:10:51.668Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-15T19:10:52.529Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-15T19:10:52.543Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-15T19:18:26.578Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-15T19:18:26.593Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-15T19:19:04.439Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-15T19:19:04.456Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-15T19:19:09.344Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-15T19:19:09.369Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-15T22:06:43.000Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-15T22:06:43.021Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-15T22:10:08.864Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-15T22:10:08.876Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-15T22:15:57.752Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-15T22:15:57.767Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-16T08:00:59.842Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-16T08:00:59.860Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-16T08:04:13.897Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-16T08:04:13.912Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-16T08:05:47.592Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-16T08:05:47.616Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-16T08:06:15.504Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-16T08:06:15.526Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-16T08:09:18.356Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-16T08:09:18.369Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-16T08:09:53.076Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-16T08:09:53.088Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-16T08:10:13.176Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-16T08:10:13.190Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-16T08:10:23.401Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-16T08:10:23.414Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-16T08:10:47.544Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-16T08:10:47.565Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-16T08:13:24.534Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-16T08:13:24.549Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-16T08:13:36.605Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-16T08:13:36.628Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-16T08:14:31.499Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-16T08:14:31.513Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-16T10:41:42.261Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-16T10:41:42.274Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-16T10:45:52.995Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-16T10:45:53.007Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-16T10:47:14.797Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-16T10:47:14.810Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-16T10:48:22.165Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-16T10:48:22.178Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-16T10:50:26.855Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-16T10:50:26.868Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-16T10:51:17.658Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-16T10:51:17.671Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-16T11:04:32.808Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-16T11:04:32.822Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-16T13:04:41.287Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-16T13:04:41.307Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-16T13:12:03.241Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-16T13:12:03.256Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-16T18:14:09.271Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-16T18:14:09.288Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-16T18:14:14.940Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-16T18:14:14.957Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-16T18:18:46.564Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-16T18:18:46.578Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-16T18:48:10.830Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-16T18:48:10.846Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-17T06:01:42.022Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-17T06:01:42.046Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-17T06:31:11.901Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-17T06:31:11.916Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-17T07:48:27.484Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-17T07:48:27.508Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-17T07:56:29.688Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-17T07:56:29.702Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-17T07:57:30.478Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-17T07:57:30.493Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-17T08:02:31.160Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-17T08:02:31.183Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-17T08:06:55.728Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-17T08:06:55.748Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-17T08:11:55.057Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-17T08:11:55.081Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-17T08:15:38.138Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-17T08:15:38.151Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-17T08:19:25.521Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-17T08:19:25.534Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-17T08:23:08.977Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-17T08:23:08.990Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-17T08:27:07.727Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-17T08:27:07.743Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-17T08:27:23.035Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-17T08:27:23.056Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-17T08:31:46.444Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-17T08:31:46.460Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-17T08:31:57.198Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-17T08:31:57.218Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-17T08:32:11.659Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-17T08:32:11.682Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-17T08:32:22.672Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-17T08:32:22.687Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-17T08:32:41.268Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-17T08:32:41.290Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-17T08:33:07.971Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-17T08:33:07.984Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-17T08:33:40.763Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-17T08:33:40.776Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-17T08:33:57.299Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-17T08:33:57.312Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-17T08:36:29.762Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-17T08:36:29.776Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-17T09:31:05.064Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-17T09:31:05.079Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-17T09:33:58.469Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-17T09:33:58.490Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-17T21:11:23.432Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-17T21:11:23.452Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-17T21:20:23.149Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-17T21:20:23.168Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-18T08:20:58.190Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-18T08:20:58.214Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-18T08:22:13.987Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-18T08:22:14.037Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-18T08:27:14.258Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-18T08:27:14.289Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-18T08:29:48.686Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-18T08:29:48.716Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-18T08:30:36.863Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-18T08:30:36.892Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-18T08:31:27.397Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-18T08:31:27.426Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-18T08:32:13.517Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-18T08:32:13.542Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-18T08:32:35.444Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-18T08:32:35.463Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-18T08:32:37.342Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-18T08:32:37.364Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-18T08:48:50.377Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-18T08:48:50.402Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-18T08:49:42.913Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-18T08:49:42.942Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-18T08:50:16.461Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-18T08:50:16.491Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-18T08:51:06.173Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-18T08:51:06.198Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-18T09:09:45.362Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-18T09:09:45.386Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-18T09:10:16.520Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-18T09:10:16.547Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-18T09:10:34.338Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-18T09:10:34.373Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-18T09:11:12.250Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-18T09:11:12.277Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-18T09:11:29.975Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-18T09:11:29.998Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-18T15:23:16.142Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-18T15:23:16.166Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-18T15:23:49.822Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-18T15:23:49.841Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-18T15:24:51.840Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-18T15:24:51.860Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-18T15:28:48.417Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-18T15:28:48.436Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-18T15:28:57.451Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-18T15:28:57.468Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-18T15:29:21.530Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-18T15:29:21.548Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-18T15:29:57.890Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-18T15:29:57.918Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-18T15:32:28.051Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-18T15:32:28.072Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-18T15:32:49.108Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-18T15:32:49.130Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-18T15:33:38.933Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-18T15:33:38.951Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-18T15:33:58.833Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-18T15:33:58.853Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-18T15:36:34.352Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-18T15:36:34.370Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-18T15:37:15.827Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-18T15:37:15.846Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-18T15:41:18.745Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-18T15:41:18.765Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-18T15:41:44.286Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-18T15:41:44.307Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-18T15:48:09.370Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-18T15:48:09.388Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-18T15:53:02.361Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-18T15:53:02.388Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-18T16:06:26.561Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-18T16:06:26.584Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-18T16:08:01.254Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-18T16:08:01.274Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-18T16:09:21.931Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-18T16:09:21.951Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-18T16:14:07.646Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-18T16:14:07.667Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-18T16:22:22.902Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-18T16:22:22.941Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-18T16:29:11.360Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-18T16:29:11.384Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-18T16:29:23.307Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-18T16:29:23.330Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-18T16:29:49.911Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-18T16:29:49.932Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-18T16:30:06.154Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-18T16:30:06.175Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-18T16:30:38.553Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-18T16:30:38.580Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-18T16:31:00.046Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-18T16:31:00.068Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-18T16:31:30.287Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-18T16:31:30.306Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-18T16:32:46.658Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-18T16:32:46.678Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-18T16:33:02.339Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-18T16:33:02.372Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-18T16:35:37.875Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-18T16:35:37.902Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-18T16:36:21.926Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-18T16:36:21.950Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-18T16:36:49.881Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-18T16:36:49.901Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-18T16:37:43.914Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-18T16:37:43.935Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-18T16:38:17.701Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-18T16:38:17.728Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-18T16:38:27.921Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-18T16:38:27.939Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-18T16:38:58.224Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-18T16:38:58.253Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-18T17:06:16.024Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-18T17:06:16.047Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-18T17:07:13.294Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-18T17:07:13.314Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-18T18:18:10.168Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-18T18:18:10.196Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-18T18:19:39.952Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-18T18:19:39.973Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-18T18:20:10.145Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-18T18:20:10.168Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-18T18:22:08.106Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-18T18:22:08.131Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-18T18:23:10.332Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-18T18:23:10.355Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-18T18:23:38.033Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-18T18:23:38.053Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-18T18:23:49.046Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-18T18:23:49.067Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-18T18:24:56.826Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-18T18:24:56.844Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-18T18:25:35.529Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-18T18:25:35.548Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-19T08:00:59.672Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-19T08:00:59.719Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-19T08:13:46.304Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-19T08:13:46.345Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-19T08:18:43.695Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-19T08:18:43.725Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-19T13:39:29.667Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-19T13:39:29.690Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-19T13:56:43.867Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-19T13:56:43.886Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-20T09:03:12.254Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-20T09:03:12.281Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-20T09:05:00.720Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-20T09:05:00.746Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-20T09:36:22.639Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-20T09:36:22.657Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-20T09:36:54.151Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-20T09:36:54.177Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-20T09:37:02.166Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-20T09:37:02.187Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-20T09:38:42.644Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-20T09:38:42.663Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-20T09:39:06.677Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-20T09:39:06.695Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-20T09:39:31.576Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-20T09:39:31.597Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-20T09:41:14.825Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-20T09:41:14.846Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-20T09:49:00.471Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-20T09:49:00.492Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-20T09:49:32.632Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-20T09:49:32.651Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-20T09:50:01.715Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-20T09:50:01.735Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-20T09:51:20.552Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-20T09:51:20.572Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-20T09:51:39.404Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-20T09:51:39.423Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-20T09:52:17.370Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-20T09:52:17.389Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-20T09:52:42.019Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-20T09:52:42.038Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-20T09:53:24.430Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-20T09:53:24.450Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-20T09:53:38.383Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-20T09:53:38.405Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-20T09:53:53.590Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-20T09:53:53.610Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-20T09:54:09.833Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-20T09:54:09.852Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-20T09:54:25.680Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-20T09:54:25.698Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-20T09:55:00.930Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-20T09:55:00.975Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-20T09:55:17.972Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-20T09:55:17.990Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-20T09:55:22.249Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-20T09:55:22.268Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-20T10:02:06.285Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-20T10:02:06.306Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-20T10:02:37.336Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-20T10:02:37.356Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-20T10:03:09.161Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-20T10:03:09.177Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-20T10:04:43.124Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-20T10:04:43.147Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-20T10:45:30.062Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-20T10:45:30.099Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-20T10:46:01.451Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-20T10:46:01.492Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-20T10:46:12.772Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-20T10:46:12.799Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-20T10:48:50.214Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-20T10:48:50.268Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-20T10:49:12.098Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-20T10:49:12.131Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-20T10:49:46.551Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-20T10:49:46.593Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-20T12:41:02.731Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-20T12:41:02.758Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-20T12:42:20.819Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-20T12:42:20.853Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-20T12:42:22.744Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-20T12:42:22.763Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-20T12:42:43.867Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-20T12:42:43.914Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-20T12:42:47.249Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-20T12:42:47.276Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-20T12:42:50.633Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-20T12:42:50.658Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-20T12:43:28.507Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-20T12:43:28.534Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-20T16:12:25.503Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-20T16:12:25.545Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-20T16:27:39.303Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-20T16:27:39.327Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-20T16:28:45.312Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-20T16:28:45.332Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-21T08:37:55.786Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-21T08:37:55.806Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-21T08:38:37.375Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-21T08:38:37.399Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-21T08:50:15.192Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-21T08:50:15.214Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-21T08:52:29.096Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-21T08:52:29.121Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-21T08:53:20.580Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-21T08:53:20.605Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-21T08:54:15.417Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-21T08:54:15.440Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-21T08:54:31.364Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-21T08:54:31.385Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-21T08:54:38.253Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-21T08:54:38.277Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-21T08:56:29.672Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-21T08:56:29.697Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-21T09:02:18.727Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-21T09:02:18.753Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-21T09:16:45.118Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-21T09:16:45.144Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-21T09:19:22.015Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-21T09:19:22.034Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-21T09:27:47.130Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-21T09:27:47.147Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-21T09:29:56.357Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-21T09:29:56.377Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-21T09:49:28.908Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-21T09:49:28.926Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-21T09:53:25.932Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-21T09:53:25.952Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-21T09:58:54.147Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-21T09:58:54.168Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-21T10:04:15.706Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-21T10:04:15.729Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-21T10:04:47.831Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-21T10:04:47.850Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-22T05:43:13.604Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-22T05:43:13.635Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-22T05:46:28.591Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-22T05:46:28.629Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-22T05:47:10.793Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-22T05:47:10.847Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-22T05:47:38.080Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-22T05:47:38.114Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-22T05:48:32.121Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-22T05:48:32.148Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-22T05:49:47.271Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-22T05:49:47.301Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-22T05:51:34.175Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-22T05:51:34.208Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-22T05:52:21.701Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-22T05:52:21.729Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-22T05:53:55.625Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-22T05:53:55.665Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-22T05:54:21.087Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-22T05:54:21.122Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-22T05:55:07.171Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-22T05:55:07.206Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-22T06:13:50.062Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-22T06:13:50.115Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-22T08:45:58.377Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-22T08:45:58.407Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-22T08:46:25.676Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-22T08:46:25.693Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-22T11:22:55.475Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-22T11:22:55.505Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-22T13:47:50.865Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-22T13:47:50.893Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-22T13:59:14.065Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-22T13:59:14.090Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-22T13:59:33.809Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-22T13:59:33.832Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-22T14:03:39.167Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-22T14:03:39.186Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-22T14:03:50.311Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-22T14:03:50.334Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-22T14:05:20.870Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-22T14:05:20.894Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-22T14:26:46.216Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-22T14:26:46.241Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-22T14:26:52.724Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-22T14:26:52.747Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-22T14:28:45.503Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-22T14:28:45.527Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-22T14:30:30.946Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-22T14:30:30.965Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-22T14:32:53.621Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-22T14:32:53.641Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-22T16:40:26.281Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-22T16:40:26.313Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-22T16:49:27.967Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-22T16:49:27.988Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-22T16:50:11.425Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-22T16:50:11.446Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-22T16:51:16.506Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-22T16:51:16.536Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-22T16:52:00.705Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-22T16:52:00.729Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-23T07:56:05.626Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-23T07:56:05.646Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-23T07:58:38.809Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-23T07:58:38.830Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-23T12:02:16.878Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-23T12:02:16.896Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-23T12:59:20.207Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-23T12:59:20.237Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-23T12:59:57.850Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-23T12:59:57.881Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-23T13:01:25.553Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-23T13:01:25.585Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-23T13:16:53.879Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-23T13:16:53.905Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-23T13:36:46.310Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-23T13:36:46.336Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-23T14:01:40.985Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-23T14:01:41.010Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-23T14:05:59.662Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-23T14:05:59.691Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-23T14:08:28.412Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-23T14:08:28.449Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-23T14:23:48.406Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-23T14:23:48.427Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-23T14:28:26.510Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-23T14:28:26.549Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-23T14:29:46.112Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-23T14:29:46.143Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-23T14:29:54.029Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-23T14:29:54.056Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-23T14:29:58.067Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-23T14:29:58.095Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-23T14:30:55.838Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-23T14:30:55.890Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-23T14:31:54.942Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-23T14:31:54.981Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-23T14:32:45.209Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-23T14:32:45.236Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-23T14:33:27.053Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-23T14:33:27.080Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-23T14:33:42.032Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-23T14:33:42.065Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-23T14:34:18.952Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-23T14:34:18.973Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-23T14:34:49.409Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-23T14:34:49.455Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-23T14:35:52.793Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-23T14:35:52.821Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-23T14:37:40.195Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-23T14:37:40.222Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-23T14:38:57.895Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-23T14:38:57.953Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-23T15:22:07.857Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-23T15:22:07.876Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-23T15:22:17.061Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-23T15:22:17.080Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-23T15:23:32.962Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-23T15:23:32.982Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-23T15:23:35.112Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-23T15:23:35.130Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-23T15:23:37.115Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-23T15:23:37.135Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-23T15:23:43.037Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-23T15:23:43.056Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-23T15:27:28.217Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-23T15:27:28.235Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-23T15:27:38.910Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-23T15:27:38.928Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-23T15:29:00.134Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-23T15:29:00.153Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-23T15:29:16.879Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-23T15:29:16.898Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-23T15:29:43.410Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-23T15:29:43.428Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-23T15:42:07.495Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-23T15:42:07.513Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-23T15:50:12.543Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-23T15:50:12.559Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-23T16:00:04.514Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-23T16:00:04.532Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-23T16:02:43.185Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-23T16:02:43.202Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-23T16:07:16.458Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-23T16:07:16.483Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-23T16:15:58.868Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-23T16:15:58.889Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-23T16:28:07.647Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-23T16:28:07.666Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-23T16:28:46.843Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-23T16:28:46.860Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-23T16:29:02.182Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-23T16:29:02.204Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-23T16:29:19.848Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-23T16:29:19.869Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-23T16:36:15.456Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-23T16:36:15.478Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-23T16:36:36.908Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-23T16:36:36.929Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-23T16:37:03.216Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-23T16:37:03.235Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-23T16:43:26.549Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-23T16:43:26.564Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-23T16:44:05.288Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-23T16:44:05.310Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-23T16:47:29.843Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-23T16:47:29.860Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-23T19:58:02.372Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-23T19:58:02.397Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-23T19:59:59.360Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-23T19:59:59.379Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-23T20:00:52.034Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-23T20:00:52.056Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-23T20:01:24.804Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-23T20:01:24.821Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-23T20:01:38.708Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-23T20:01:38.728Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-23T20:03:41.548Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-23T20:03:41.568Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-23T20:03:53.728Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-23T20:03:53.747Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-23T20:06:32.828Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-23T20:06:32.842Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-23T20:07:53.112Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-23T20:07:53.130Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-23T20:08:23.244Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-23T20:08:23.264Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-23T20:24:02.052Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-23T20:24:02.079Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-23T20:25:47.007Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-23T20:25:47.028Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-23T20:26:20.636Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-23T20:26:20.656Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-23T20:31:28.533Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-23T20:31:28.554Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-23T20:36:07.402Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-23T20:36:07.421Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-23T20:42:48.023Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-23T20:42:48.043Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-23T20:43:22.101Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-23T20:43:22.118Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-23T21:06:13.002Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-23T21:06:13.027Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-24T07:16:51.666Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-24T07:16:51.694Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-24T07:21:16.460Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-24T07:21:16.484Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-24T07:22:33.816Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-24T07:22:33.843Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-24T07:25:18.302Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-24T07:25:18.327Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-24T07:25:20.871Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-24T07:25:20.897Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-24T07:25:55.953Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-24T07:25:55.979Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-24T07:28:22.258Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-24T07:28:22.276Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-24T07:44:35.446Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-24T07:44:35.498Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-24T07:49:07.854Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-24T07:49:07.879Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-24T08:03:43.970Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-24T08:03:44.001Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-24T08:04:01.637Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-24T08:04:01.670Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-24T08:08:37.445Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-24T08:08:37.467Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-24T08:37:06.667Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-24T08:37:06.687Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-24T09:13:00.841Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-24T09:13:00.863Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-24T09:13:18.177Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-24T09:13:18.203Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-24T09:13:43.356Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-24T09:13:43.370Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-24T09:14:41.203Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-24T09:14:41.226Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-24T09:14:48.915Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-24T09:14:48.938Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-24T09:49:30.512Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-24T09:49:30.533Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-24T09:53:51.706Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-24T09:53:51.722Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-24T09:54:30.539Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-24T09:54:30.560Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-24T09:58:36.542Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-24T09:58:36.561Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-24T09:59:39.679Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-24T09:59:39.697Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-24T10:00:45.955Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-24T10:00:45.975Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-24T10:02:10.647Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-24T10:02:10.666Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-24T10:09:19.581Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-24T10:09:19.598Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-24T10:13:10.399Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-24T10:13:10.419Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-24T10:18:12.746Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-24T10:18:12.767Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-24T10:23:10.129Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-24T10:23:10.148Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-24T10:24:28.953Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-24T10:24:28.972Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-24T10:25:33.090Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-24T10:25:33.112Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-24T10:26:33.606Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-24T10:26:33.624Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-24T13:06:58.087Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-24T13:06:58.108Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-24T17:30:41.890Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-24T17:30:41.914Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-24T17:35:30.254Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-24T17:35:30.273Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-24T17:43:11.331Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-24T17:43:11.348Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-24T17:44:59.380Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-24T17:44:59.410Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-24T17:46:50.012Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-24T17:46:50.033Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-24T17:47:02.515Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-24T17:47:02.541Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-24T17:48:53.287Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-24T17:48:53.313Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-24T17:49:07.020Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-24T17:49:07.042Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-24T17:51:52.042Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-24T17:51:52.070Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-24T19:27:54.519Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-24T19:27:54.539Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-25T14:43:46.299Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-25T14:43:46.327Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-25T14:53:29.061Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-25T14:53:29.088Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-25T14:54:38.266Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-25T14:54:38.290Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-25T14:54:52.526Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-25T14:54:52.551Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-25T14:55:15.342Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-25T14:55:15.371Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-25T15:51:39.718Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-25T15:51:39.747Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-25T15:53:32.051Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-25T15:53:32.077Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-25T15:53:57.414Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-25T15:53:57.457Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-25T15:54:25.444Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-25T15:54:25.469Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-25T15:55:10.116Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-25T15:55:10.143Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-25T16:07:10.313Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-25T16:07:10.345Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-25T16:07:46.625Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-25T16:07:46.655Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-25T16:09:05.893Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-25T16:09:05.922Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-25T16:09:51.949Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-25T16:09:52.004Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-25T16:27:02.724Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-25T16:27:02.746Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-25T17:14:17.095Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-25T17:14:17.120Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-25T17:15:18.067Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-25T17:15:18.084Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-25T17:15:30.274Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-25T17:15:30.294Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-25T17:16:09.093Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-25T17:16:09.114Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-25T17:23:14.022Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-25T17:23:14.041Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-25T17:26:21.713Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-25T17:26:21.736Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-25T17:27:39.306Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-25T17:27:39.325Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-25T17:30:15.410Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-25T17:30:15.431Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-25T17:31:00.206Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-25T17:31:00.228Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-25T17:31:27.491Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-25T17:31:27.511Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-25T17:42:41.234Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-25T17:42:41.253Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-25T17:43:10.589Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-25T17:43:10.608Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-25T17:43:20.811Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-25T17:43:20.830Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-25T17:43:52.192Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-25T17:43:52.212Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-25T17:44:17.433Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-25T17:44:17.452Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-25T17:44:29.220Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-25T17:44:29.238Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-25T17:45:12.423Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-25T17:45:12.443Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-25T17:45:33.201Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-25T17:45:33.221Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-25T17:50:27.449Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-25T17:50:27.469Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-25T17:50:28.915Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-25T17:50:28.931Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-25T17:50:53.381Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-25T17:50:53.401Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-25T17:53:53.716Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-25T17:53:53.738Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-25T17:54:36.607Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-25T17:54:36.626Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-25T17:58:51.527Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-25T17:58:51.546Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-25T17:59:27.909Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-25T17:59:27.929Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-25T18:13:20.943Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-25T18:13:20.962Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-25T18:18:31.866Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-25T18:18:31.893Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-25T18:27:48.927Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-25T18:27:48.961Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-25T18:28:31.937Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-25T18:28:31.965Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-25T18:28:48.717Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-25T18:28:48.743Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-25T18:35:00.535Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-25T18:35:00.561Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-25T18:35:36.921Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-25T18:35:36.957Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-25T18:36:29.932Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-25T18:36:29.964Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-25T18:38:03.981Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-25T18:38:04.012Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-25T18:49:00.396Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-25T18:49:00.427Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-25T18:49:33.883Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-25T18:49:33.913Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-25T18:56:46.284Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-25T18:56:46.312Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-25T20:21:35.088Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-25T20:21:35.114Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-25T20:27:43.200Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-25T20:27:43.239Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-25T20:28:08.771Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-25T20:28:08.804Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-25T20:33:31.268Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-25T20:33:31.287Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-25T20:34:32.631Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-25T20:34:32.647Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-25T20:42:15.692Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-25T20:42:15.713Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-26T08:52:32.645Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-26T08:52:32.668Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-26T09:02:02.130Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-26T09:02:02.150Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-26T09:10:55.416Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-26T09:10:55.442Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-26T09:23:33.020Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-26T09:23:33.047Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-26T19:11:34.382Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-26T19:11:34.411Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-26T19:19:24.022Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-26T19:19:24.050Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-26T19:51:29.932Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-26T19:51:29.970Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-26T19:51:46.394Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-26T19:51:46.429Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-26T19:53:23.661Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-26T19:53:23.685Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-26T19:54:04.838Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-26T19:54:04.881Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-26T19:54:32.410Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-26T19:54:32.438Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-26T19:54:50.785Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-26T19:54:50.824Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-26T19:55:22.698Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-26T19:55:22.728Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-26T19:57:35.013Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-26T19:57:35.035Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-26T20:30:00.479Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-26T20:30:00.510Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-26T20:31:06.350Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-26T20:31:06.378Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-26T20:31:59.294Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-26T20:31:59.324Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-26T20:33:30.238Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-26T20:33:30.282Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-26T22:09:07.938Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-26T22:09:07.964Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-26T22:09:45.603Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-26T22:09:45.630Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-26T22:17:41.844Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-26T22:17:41.874Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-26T22:19:58.029Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-26T22:19:58.070Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-27T06:13:58.531Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-27T06:13:58.558Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-27T06:16:17.281Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-27T06:16:17.301Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-27T06:45:26.606Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-27T06:45:26.626Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-27T06:47:04.188Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-27T06:47:04.217Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-27T06:48:58.254Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-27T06:48:58.277Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-27T07:00:50.412Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-27T07:00:50.434Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-27T07:01:37.998Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-27T07:01:38.027Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-27T07:03:50.804Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-27T07:03:50.827Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-27T08:22:10.575Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-27T08:22:10.603Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-27T08:23:01.443Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-27T08:23:01.465Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-27T08:24:03.307Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-27T08:24:03.327Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-27T08:27:25.154Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-27T08:27:25.171Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-27T08:38:02.530Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-27T08:38:02.548Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-27T08:38:09.345Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-27T08:38:09.361Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-27T08:48:03.246Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-27T08:48:03.267Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-27T09:07:11.700Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-27T09:07:11.722Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-27T09:12:57.495Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-27T09:12:57.517Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-27T09:22:02.720Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-27T09:22:02.739Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-27T09:36:08.931Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-27T09:36:08.953Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-27T09:36:11.063Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-27T09:36:11.083Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-27T09:43:18.822Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-27T09:43:18.843Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-27T09:46:01.326Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-27T09:46:01.344Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-27T10:15:11.747Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-27T10:15:11.769Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-27T10:15:46.173Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-27T10:15:46.191Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-27T10:17:52.898Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-27T10:17:52.916Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-27T10:20:19.669Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-27T10:20:19.692Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-27T10:21:16.052Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-27T10:21:16.072Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-27T10:22:17.158Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-27T10:22:17.176Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-27T10:23:06.203Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-27T10:23:06.223Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-27T10:23:11.882Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-27T10:23:11.904Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-27T13:19:23.290Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-27T13:19:23.309Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-27T13:27:04.920Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-27T13:27:04.940Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-27T13:27:35.413Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-27T13:27:35.430Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-27T13:27:57.836Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-27T13:27:57.853Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-09-27T13:28:43.006Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-09-27T13:28:43.026Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-01T14:22:37.003Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-01T14:22:37.029Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-02T09:09:27.896Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-02T09:09:27.915Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-02T09:09:31.791Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-02T09:09:31.811Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-02T09:15:59.415Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-02T09:15:59.444Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-02T09:18:29.865Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-02T09:18:29.885Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-02T09:49:52.499Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-02T09:49:52.520Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-02T09:55:51.615Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-02T09:55:51.637Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-02T09:58:01.307Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-02T09:58:01.327Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-02T10:00:45.490Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-02T10:00:45.510Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-02T10:05:45.333Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-02T10:05:45.354Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-02T10:40:58.276Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-02T10:40:58.304Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-02T10:41:04.885Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-02T10:41:04.910Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-02T10:50:08.519Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-02T10:50:08.546Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-02T11:01:24.064Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-02T11:01:24.116Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-02T11:16:23.339Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-02T11:16:23.383Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-02T12:16:57.771Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-02T12:16:57.801Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-02T12:17:01.672Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-02T12:17:01.700Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-02T12:26:19.652Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-02T12:26:19.678Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-02T12:26:40.131Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-02T12:26:40.164Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-02T12:27:22.648Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-02T12:27:22.680Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-02T12:27:35.118Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-02T12:27:35.139Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-02T12:28:17.952Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-02T12:28:17.979Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-02T12:28:31.589Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-02T12:28:31.615Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-02T12:30:21.333Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-02T12:30:21.365Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-02T12:30:33.314Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-02T12:30:33.351Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-02T13:04:30.570Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-02T13:04:30.599Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-02T13:04:49.026Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-02T13:04:49.054Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-02T14:13:07.292Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-02T14:13:07.314Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-02T14:13:54.238Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-02T14:13:54.258Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-02T14:14:36.825Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-02T14:14:36.844Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-02T14:14:40.380Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-02T14:14:40.399Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-02T14:23:19.634Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-02T14:23:19.653Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-02T14:26:00.244Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-02T14:26:00.263Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-02T15:00:53.526Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-02T15:00:53.545Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-02T15:09:43.101Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-02T15:09:43.121Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-02T15:18:07.947Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-02T15:18:07.973Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-02T16:19:20.846Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-02T16:19:20.874Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-02T16:23:19.761Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-02T16:23:19.787Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-02T16:37:43.944Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-02T16:37:43.976Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-02T16:38:12.928Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-02T16:38:12.955Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-02T16:52:25.677Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-02T16:52:25.699Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-02T16:54:43.709Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-02T16:54:43.735Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-02T16:55:54.276Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-02T16:55:54.308Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-02T16:57:26.054Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-02T16:57:26.086Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-02T16:59:51.628Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-02T16:59:51.668Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-02T17:35:19.480Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-02T17:35:19.509Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-02T17:44:28.794Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-02T17:44:28.837Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-02T17:45:38.115Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-02T17:45:38.142Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-02T17:46:51.921Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-02T17:46:51.947Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-02T18:08:32.192Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-02T18:08:32.212Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-02T18:21:11.090Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-02T18:21:11.112Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-02T18:23:34.112Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-02T18:23:34.137Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-02T18:26:21.195Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-02T18:26:21.218Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-02T18:35:11.733Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-02T18:35:11.753Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-02T18:36:15.004Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-02T18:36:15.028Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-02T18:36:35.069Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-02T18:36:35.097Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-06T14:05:46.943Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-06T14:05:46.968Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-07T16:57:13.057Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-07T16:57:13.081Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-17T19:41:47.985Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-17T19:41:48.012Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-17T19:45:17.942Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-17T19:45:17.970Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-17T19:45:32.414Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-17T19:45:32.434Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-17T19:45:50.663Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-17T19:45:50.684Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-17T19:48:29.740Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-17T19:48:29.763Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-17T20:17:30.965Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-17T20:17:30.990Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-17T20:18:55.101Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-17T20:18:55.124Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-17T20:19:09.725Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-17T20:19:09.750Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-17T22:06:06.130Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-17T22:06:06.148Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-18T21:38:15.700Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-18T21:38:15.716Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-25T21:44:43.177Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-25T21:46:23.924Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-25T21:51:25.705Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-25T21:51:25.744Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-25T21:59:15.546Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-25T21:59:15.573Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-26T05:30:56.531Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-26T05:30:56.561Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-26T05:32:54.526Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-26T05:32:54.546Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-26T05:34:05.471Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-26T05:34:05.499Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-26T05:34:28.157Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-26T05:34:28.182Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-26T05:53:52.913Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-26T05:53:52.933Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-26T05:55:23.410Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-26T05:55:23.439Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-26T05:56:10.398Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-26T05:56:10.425Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-26T05:59:06.016Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-26T05:59:06.059Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-26T07:00:55.422Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-26T07:00:55.447Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-26T07:10:40.119Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-26T07:10:40.145Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-26T07:13:03.617Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-26T07:13:03.650Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-26T07:22:07.467Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-26T07:22:07.491Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-26T07:23:02.567Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-26T07:23:02.594Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-26T07:23:23.627Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-26T07:23:23.658Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-26T07:23:57.692Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-26T07:23:57.719Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-26T13:39:06.722Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-26T13:39:06.749Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-26T17:04:39.240Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-26T17:04:39.262Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-26T18:01:51.401Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-26T18:01:51.423Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-26T18:05:25.875Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-26T18:05:25.901Z"}
+{"level":"debug","message":"Email sent: 250 2.0.0 OK  1698343598 f7-20020a7bcd07000000b003fee567235bsm3161536wmj.1 - gsmtp","timestamp":"2023-10-26T18:06:38.258Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-27T06:47:09.639Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-27T06:47:09.680Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-27T10:02:59.121Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-27T10:02:59.156Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-27T10:06:17.134Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-27T10:06:17.160Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-27T19:46:10.443Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-27T19:46:10.473Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-28T09:44:07.420Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-28T09:44:07.451Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-28T10:06:00.212Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-28T10:06:00.240Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-28T10:08:31.127Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-28T10:08:31.164Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-28T10:08:34.389Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-28T10:08:34.429Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-28T10:08:37.198Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-28T10:08:37.231Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-28T10:08:41.890Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-28T10:08:41.922Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-28T10:38:17.168Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-28T10:38:17.188Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-28T10:54:37.202Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-28T10:54:37.229Z"}
+{"level":"debug","message":"Email sent: 250 2.0.0 OK  1698490482 dl19-20020a05600c669300b003fee6e170f9sm3708240wmb.45 - gsmtp","timestamp":"2023-10-28T10:54:43.002Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-28T10:57:12.942Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-28T10:57:12.961Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-28T10:59:43.752Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-28T10:59:43.778Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-28T11:00:11.876Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-28T11:00:11.906Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-28T11:11:10.752Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-28T11:11:10.779Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-28T11:11:54.151Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-28T11:11:54.177Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-28T11:13:32.394Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-28T11:13:32.426Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-28T12:04:05.477Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-28T12:04:05.519Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-28T12:04:21.234Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-28T12:04:21.255Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-28T12:46:17.832Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-28T12:46:17.853Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-29T09:30:16.062Z"}
+{"level":"debug","message":"2023-10-29T09:30:16.065Z","timestamp":"2023-10-29T09:30:16.065Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-29T09:30:16.083Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-29T09:30:29.982Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-29T09:30:30.004Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-29T09:49:38.008Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-29T09:49:38.028Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-30T09:55:57.325Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-30T09:55:57.344Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-30T10:33:18.373Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-30T10:33:18.394Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-30T10:36:27.812Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-30T10:36:27.828Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-30T10:44:21.324Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-30T10:44:21.346Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-30T11:00:05.417Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-30T11:00:05.439Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-30T11:00:32.159Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-30T11:00:32.177Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-30T11:06:27.823Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-30T11:06:27.842Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-30T11:15:39.547Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-30T11:15:39.566Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-30T11:16:03.309Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-30T11:16:03.327Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-30T11:17:37.862Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-30T11:17:37.881Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-30T11:17:59.917Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-30T11:17:59.935Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-30T11:19:44.572Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-30T11:19:44.590Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-30T11:19:52.878Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-30T11:19:52.902Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-30T11:20:13.048Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-30T11:20:13.068Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-30T11:20:37.679Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-30T11:20:37.699Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-30T11:21:30.276Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-30T11:21:30.296Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-30T11:24:32.466Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-30T11:24:32.486Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-30T11:25:13.491Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-30T11:25:13.511Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-30T11:25:35.316Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-30T11:25:35.337Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-30T11:49:02.864Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-30T11:49:02.891Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-30T11:52:08.913Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-30T11:52:08.941Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-30T11:52:22.093Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-30T11:52:22.120Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-30T11:52:47.009Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-30T11:52:47.034Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-30T11:52:53.905Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-30T11:52:53.931Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-30T11:54:00.106Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-30T11:54:00.134Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-30T12:06:59.324Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-30T12:06:59.352Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-30T12:08:44.157Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-30T12:08:44.190Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-30T12:21:31.292Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-30T12:21:31.316Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-30T12:24:05.876Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-30T12:24:05.912Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-30T12:24:20.028Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-30T12:24:20.069Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-30T12:24:25.852Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-30T12:24:25.893Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-30T12:27:45.596Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-30T12:27:45.630Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-30T12:28:04.274Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-30T12:28:04.309Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-30T12:29:19.820Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-30T12:29:19.853Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-30T12:31:26.116Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-30T12:31:26.139Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-30T12:33:08.141Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-30T12:33:08.194Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-30T12:33:16.907Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-30T12:33:16.937Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-30T12:33:21.247Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-30T12:33:21.277Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-30T12:33:32.217Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-30T12:33:32.245Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-30T12:41:28.447Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-30T12:41:28.477Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-30T13:43:01.186Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-30T13:43:01.217Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-30T13:44:52.949Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-30T13:44:52.978Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-30T13:45:01.757Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-30T13:45:01.787Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-30T13:46:45.707Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-30T13:46:45.736Z"}
+{"level":"debug","message":"listening from port 8080","timestamp":"2023-10-30T13:49:14.332Z"}
+{"level":"debug","message":"Mongodb connected","timestamp":"2023-10-30T13:49:14.365Z"}
