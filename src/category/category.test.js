@@ -111,13 +111,25 @@ describe("categoryService", () => {
   });
   describe("updateCategory function", () => {
     it("should update the category that corresponds to the categoryId provided", async () => {
-      category.updateOne.mockReturnValueOnce({ nModified: 1, ok: 1 });
+      category.updateOne.mockReturnValueOnce({
+        acknowledged: true,
+        modifiedCount: 1,
+        upsertedId: null,
+        upsertedCount: 0,
+        matchedCount: 1,
+      });
       const result = await categoryService.updateCategory(
         mockCategory._id,
         mockCategory,
         mockUserId
       );
-      expect(result).toEqual({ nModified: 1, ok: 1 });
+      expect(result).toEqual({
+        acknowledged: true,
+        modifiedCount: 1,
+        upsertedId: null,
+        upsertedCount: 0,
+        matchedCount: 1,
+      });
       expect(category.updateOne).toHaveBeenCalledWith(
         { _id: mockCategory._id },
         { $set: mockCategory, updatedBy: mockUserId }
@@ -136,14 +148,26 @@ describe("categoryService", () => {
     });
     it("should delete category when it does not have items", async () => {
       item.findOne.mockResolvedValueOnce(null);
-      category.deleteOne.mockReturnValueOnce({ n: 1, ok: 1, deletedCount: 1 });
+      category.deleteOne.mockReturnValueOnce({
+        acknowledged: true,
+        deletedCount: 1,
+      });
       const result = await categoryService.deleteCategory(mockCategory._id);
-      expect(result).toEqual({ n: 1, ok: 1, deletedCount: 1 });
+      expect(result).toEqual({
+        acknowledged: true,
+        deletedCount: 1,
+      });
     });
   });
   describe("addImage function", () => {
     it("Add image or update the image of the category that corresponds to the provided categoryId ", async () => {
-      category.updateOne.mockResolvedValueOnce({ nModified: 1, ok: 1 });
+      category.updateOne.mockResolvedValueOnce({
+        acknowledged: true,
+        modifiedCount: 1,
+        upsertedId: null,
+        upsertedCount: 0,
+        matchedCount: 1,
+      });
       const imageUrl = "new image Url";
 
       const result = await categoryService.addImage(
@@ -151,7 +175,13 @@ describe("categoryService", () => {
         mockCategory._id,
         mockUserId
       );
-
+      expect(result).toEqual({
+        acknowledged: true,
+        modifiedCount: 1,
+        upsertedId: null,
+        upsertedCount: 0,
+        matchedCount: 1,
+      });
       expect(category.updateOne).toHaveBeenCalledWith(
         { _id: mockCategory._id },
         { $set: { imageUrl: imageUrl, updatedBy: mockUserId } }
@@ -170,7 +200,7 @@ describe("categoryService", () => {
         update: jest.fn().mockReturnThis(),
         execute: jest.fn(),
       };
-      category.collection.initializeUnorderedBulkOp.mockReturnValue(bulkOpMock);
+      category.collection.initializeUnorderedBulkOp.mockReturnValueOnce(bulkOpMock);
       await categoryService.sortCategories(categories);
       expect(bulkOpMock.find).toHaveBeenCalledTimes(2);
       expect(bulkOpMock.update).toHaveBeenCalledTimes(2);

@@ -68,9 +68,15 @@ describe("userTokenService", () => {
   describe("revokeToken function", () => {
     it("should return the result of userToken.deleteOne", async () => {
       const cookies = { refreshToken: "validRefreshToken" };
-      userToken.deleteOne.mockResolvedValueOnce({ deletedCount: 1 });
+      userToken.deleteOne.mockResolvedValueOnce({
+        acknowledged: true,
+        deletedCount: 1,
+      });
       const result = await userTokenService.revokeToken(cookies);
-      expect(result).toEqual({ deletedCount: 1 });
+      expect(result).toEqual({
+        acknowledged: true,
+        deletedCount: 1,
+      });
       expect(userToken.deleteOne).toHaveBeenCalledWith({
         refreshToken: "validRefreshToken",
       });

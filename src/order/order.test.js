@@ -436,7 +436,7 @@ describe("orderService", () => {
       expect(order.aggregate).toHaveBeenCalledWith([
         {
           $match: {
-            userId: new mongoose.Types.ObjectId(mockUserId),
+            userId: mockUserId,
             status: { $ne: config.pendingStatus },
           },
         },
@@ -456,7 +456,7 @@ describe("orderService", () => {
       expect(order.aggregate).toHaveBeenCalledWith([
         {
           $match: {
-            userId: new mongoose.Types.ObjectId(mockUserId),
+            userId: mockUserId,
             status: { $ne: config.pendingStatus },
           },
         },

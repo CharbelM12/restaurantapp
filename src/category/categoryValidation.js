@@ -16,8 +16,8 @@ const categoryValidation = {
   getCategories: {
     query: Joi.object({
       categoryId: Joi.objectId(),
-      page: Joi.number().positive().min(config.defaultPageNumber),
-      limit: Joi.number().positive().min(config.defaultPageNumber),
+      page: Joi.number().positive().min(config.minPageAndLimitValue),
+      limit: Joi.number().positive().min(config.minPageAndLimitValue),
     }),
   },
   createCategory: {

@@ -58,8 +58,8 @@ const branchValidation = {
   getBranches:{
     query: Joi.object({
     branchId: Joi.objectId(), 
-    page: Joi.number().positive().min(config.defaultPageNumber),
-    limit: Joi.number().positive().min(config.defaultPageNumber),
+    page: Joi.number().positive().min(config.minPageAndLimitValue),
+    limit: Joi.number().positive().min(config.minPageAndLimitValue),
     }),
   }
 };

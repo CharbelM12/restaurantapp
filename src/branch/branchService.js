@@ -61,7 +61,7 @@ class BranchService {
       }
       return await branch.updateOne(
         {
-          _id: branchId,
+          _id: new mongoose.Types.ObjectId(branchId),
         },
         {
           $set: reqBody,

@@ -1,5 +1,6 @@
 const Joi = require("joi");
 Joi.objectId = require("joi-objectid")(Joi);
+const config=require("../configurations/config")
 
 const createBody = {
   itemName: Joi.string().required(),
@@ -35,8 +36,8 @@ const itemValidation = {
       ingredients: Joi.string(),
       categoryId: Joi.objectId(),
       price: Joi.number().positive(),
-      page: Joi.number().positive().min(1),
-      limit: Joi.number().positive().min(1),
+      page: Joi.number().positive().min(config.minPageAndLimitValue),
+      limit: Joi.number().positive().min(config.minPageAndLimitValue),
     })
   }
 };

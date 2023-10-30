@@ -57,8 +57,8 @@ class AddressService {
       }
       return await address.updateOne(
         {
-          _id: addressId,
-          userId: userId,
+          _id:new mongoose.Types.ObjectId(addressId),
+          userId: new mongoose.Types.ObjectId(userId),
         },
         {
           $set: reqBody,
@@ -80,7 +80,7 @@ class AddressService {
     } else {
       return await address.deleteOne({
         _id: new mongoose.Types.ObjectId(addressId),
-        userId: userId,
+        userId: new mongoose.Types.ObjectId(userId),
       });
     }
   }

@@ -130,7 +130,7 @@ class OrderService {
       {
         _id: new mongoose.Types.ObjectId(orderId),
         status: config.pendingStatus,
-        userId: userId,
+        userId: new mongoose.Types.ObjectId(userId),
       },
       { status: orderConfig.canceledStatus }
     );

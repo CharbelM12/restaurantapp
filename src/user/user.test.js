@@ -151,8 +151,8 @@ describe("User Service", () => {
 
       SHA256.mockReturnValue("hashedPassword");
 
-      generateTokens.generateAccessTokens.mockResolvedValue("mockAccessToken");
-      generateTokens.generateRefreshTokens.mockResolvedValue(
+      generateTokens.generateAccessTokens.mockResolvedValueOnce("mockAccessToken");
+      generateTokens.generateRefreshTokens.mockResolvedValueOnce(
         "mockRefreshToken"
       );
 
@@ -234,23 +234,47 @@ describe("User Service", () => {
   describe("enable or disable admin", () => {
     it("should call updateOne with the correct parameters to disable admin", async () => {
       const status = userConfig.disable;
-      user.updateOne.mockResolvedValueOnce({ nModified: 1, ok: 1 });
+      user.updateOne.mockResolvedValueOnce({
+        acknowledged: true,
+        modifiedCount: 1,
+        upsertedId: null,
+        upsertedCount: 0,
+        matchedCount: 1,
+      });
       const result = await userService.disableOrEnableAdmin(userId, status);
       expect(user.updateOne).toHaveBeenCalledWith(
         { _id: userId },
         { $set: { isDisabled: status } }
       );
-      expect(result).toEqual({ nModified: 1, ok: 1 });
+      expect(result).toEqual({
+        acknowledged: true,
+        modifiedCount: 1,
+        upsertedId: null,
+        upsertedCount: 0,
+        matchedCount: 1,
+      });
     });
     it("should call updateOne with the correct parameters to enable admin", async () => {
       const status = userConfig.enable;
-      user.updateOne.mockResolvedValueOnce({ nModified: 1, ok: 1 });
+      user.updateOne.mockResolvedValueOnce({
+        acknowledged: true,
+        modifiedCount: 1,
+        upsertedId: null,
+        upsertedCount: 0,
+        matchedCount: 1,
+      });
       const result = await userService.disableOrEnableAdmin(userId, status);
       expect(user.updateOne).toHaveBeenCalledWith(
         { _id: userId },
         { $set: { isDisabled: status } }
       );
-      expect(result).toEqual({ nModified: 1, ok: 1 });
+      expect(result).toEqual({
+        acknowledged: true,
+        modifiedCount: 1,
+        upsertedId: null,
+        upsertedCount: 0,
+        matchedCount: 1,
+      });
     });
   });
   describe("Get Profile", () => {
@@ -315,12 +339,24 @@ describe("User Service", () => {
         phoneNumber: "70036733",
         favoriteItems: ["taouk platter"],
       };
-      user.updateOne.mockReturnValueOnce({ nModified: 1, ok: 1 });
+      user.updateOne.mockReturnValueOnce({
+        acknowledged: true,
+        modifiedCount: 1,
+        upsertedId: null,
+        upsertedCount: 0,
+        matchedCount: 1,
+      });
       const updateResult = await userService.updateProfile(
         mockUser._id,
         reqBody
       );
-      expect(updateResult).toEqual({ nModified: 1, ok: 1 });
+      expect(updateResult).toEqual({
+        acknowledged: true,
+        modifiedCount: 1,
+        upsertedId: null,
+        upsertedCount: 0,
+        matchedCount: 1,
+      });
     });
   });
   describe("forgotPassword function", () => {

@@ -138,13 +138,25 @@ describe("addressService", () => {
 
     it("should update address when it is not in a pending order", async () => {
       order.findOne.mockResolvedValueOnce(null);
-      address.updateOne.mockReturnValueOnce({ nModified: 1, ok: 1 });
+      address.updateOne.mockReturnValueOnce({
+        acknowledged: true,
+        modifiedCount: 1,
+        upsertedId: null,
+        upsertedCount: 0,
+        matchedCount: 1
+    });
       const result = await addressService.updateAddress(
         mockAddress._id,
         mockAddress,
         mockUserId
       );
-      expect(result).toEqual({ nModified: 1, ok: 1 });
+      expect(result).toEqual({
+        acknowledged: true,
+        modifiedCount: 1,
+        upsertedId: null,
+        upsertedCount: 0,
+        matchedCount: 1
+    });
       expect(address.updateOne).toHaveBeenCalledWith(
         {
           _id: mockAddress._id,
@@ -169,9 +181,15 @@ describe("addressService", () => {
     });
     it("should delete address when it is not in a pending order", async () => {
       order.findOne.mockResolvedValueOnce(null);
-      address.deleteOne.mockReturnValueOnce({ n: 1, ok: 1, deletedCount: 1 });
+      address.deleteOne.mockReturnValueOnce({
+        acknowledged: true,
+        deletedCount: 1
+    });
       const result = await addressService.deleteAddress(mockAddress._id);
-      expect(result).toEqual({ n: 1, ok: 1, deletedCount: 1 });
+      expect(result).toEqual({
+        acknowledged: true,
+        deletedCount: 1
+    });
     });
   });
 });

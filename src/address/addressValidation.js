@@ -57,8 +57,8 @@ const addressValidation = {
   getAddresses: {
     query: Joi.object({
       addressId: Joi.objectId(),
-      page: Joi.number().positive().min(config.defaultPageNumber),
-      limit: Joi.number().positive().min(config.defaultPageNumber),
+      page: Joi.number().positive().min(config.minPageAndLimitValue),
+      limit: Joi.number().positive().min(config.minPageAndLimitValue),
     }),
   },
   createAddress: {

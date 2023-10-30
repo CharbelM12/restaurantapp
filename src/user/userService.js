@@ -85,7 +85,7 @@ class UserService {
   }
 
   async addAdmin(userId, email, firstName, lastName) {
-    const existingUser = await user.findOne({ _id: userId });
+    const existingUser = await user.findOne({ _id: new mongoose.Types.ObjectId(userId) });
     if (!existingUser) {
       let newPassword = "";
       newPassword = randomString.generate({
@@ -126,7 +126,7 @@ class UserService {
   }
   async disableOrEnableAdmin(userId, status) {
     return await user.updateOne(
-      { _id: userId },
+      { _id: new mongoose.Types.ObjectId(userId) },
       { $set: { isDisabled: status } }
     );
   }
@@ -169,7 +169,7 @@ class UserService {
   }
   async updateProfile(userId, reqBody) {
     return await user.updateOne(
-      { _id: userId },
+      { _id: new mongoose.Types.ObjectId(userId) },
       {
         $set: reqBody,
       }

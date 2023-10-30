@@ -415,9 +415,15 @@ describe("itemService", () => {
     });
     it("should delete item when not in a pending order", async () => {
       order.findOne.mockResolvedValueOnce(null);
-      item.deleteOne.mockReturnValueOnce({ n: 1, ok: 1, deletedCount: 1 });
+      item.deleteOne.mockReturnValueOnce({
+        acknowledged: true,
+        deletedCount: 1
+    });
       const result = await itemService.deleteItem(mockItem._id);
-      expect(result).toEqual({ n: 1, ok: 1, deletedCount: 1 });
+      expect(result).toEqual({
+        acknowledged: true,
+        deletedCount: 1
+    });
     });
   });
   describe("addImage", () => {

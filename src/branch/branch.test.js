@@ -147,13 +147,25 @@ describe("branchService", () => {
 
     it("should update branch when it does not have pending orders", async () => {
       order.findOne.mockResolvedValueOnce(null);
-      branch.updateOne.mockReturnValueOnce({ nModified: 1, ok: 1 });
+      branch.updateOne.mockReturnValueOnce({
+        acknowledged: true,
+        modifiedCount: 1,
+        upsertedId: null,
+        upsertedCount: 0,
+        matchedCount: 1,
+      });
       const result = await branchService.updateBranch(
         mockBranch._id,
         mockBranch,
         mockUserId
       );
-      expect(result).toEqual({ nModified: 1, ok: 1 });
+      expect(result).toEqual({
+        acknowledged: true,
+        modifiedCount: 1,
+        upsertedId: null,
+        upsertedCount: 0,
+        matchedCount: 1,
+      });
       expect(branch.updateOne).toHaveBeenCalledWith(
         {
           _id: mockBranch._id,
@@ -178,9 +190,15 @@ describe("branchService", () => {
     });
     it("should delete branch when it does not have a pending order", async () => {
       order.findOne.mockResolvedValueOnce(null);
-      branch.deleteOne.mockReturnValueOnce({ n: 1, ok: 1, deletedCount: 1 });
+      branch.deleteOne.mockReturnValueOnce({
+        acknowledged: true,
+        deletedCount: 1
+    });
       const result = await branchService.deleteBranch(mockBranch._id);
-      expect(result).toEqual({ n: 1, ok: 1, deletedCount: 1 });
+      expect(result).toEqual({
+        acknowledged: true,
+        deletedCount: 1
+    });
     });
   });
 });
