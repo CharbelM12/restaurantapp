@@ -1,0 +1,995 @@
+{
+	"info": {
+		"_postman_id": "7fcebfc9-ccb3-4721-bf8c-ddf46f3aaac2",
+		"name": "addressApi",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "29210119"
+	},
+	"item": [
+		{
+			"name": "create address",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"label\":\"Work\",\r\n    \"completeAddress\":\"Jdeideh\",\r\n    \"location\":{\r\n        \"coordinates\":[55,45]\r\n    }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{addressUrl}}",
+					"host": [
+						"{{addressUrl}}"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Successfully creating an address",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"label\":\"Work\",\r\n    \"completeAddress\":\"Jdeideh\",\r\n    \"location\":{\r\n        \"coordinates\":[55,45]\r\n    }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{addressUrl}}",
+							"host": [
+								"{{addressUrl}}"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "plain",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "OPTIONS, GET, POST, PUT, PATCH, DELETE"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Content-Type, Authorization"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 26 Oct 2023 17:45:35 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						},
+						{
+							"key": "Content-Length",
+							"value": "0"
+						}
+					],
+					"cookie": [],
+					"body": null
+				},
+				{
+					"name": "validation failed",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"label\":\"Home\",\r\n    \"completeAddress\":\"antelias\",\r\n    \"location\":[-120,-80]\r\n    \r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{addressUrl}}",
+							"host": [
+								"{{addressUrl}}"
+							]
+						}
+					},
+					"status": "Bad Request",
+					"code": 400,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "OPTIONS, GET, POST, PUT, PATCH, DELETE"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Content-Type, Authorization"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "31"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"1f-hXr48JXw9+c1abn9e3ChGFhAs70\""
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 30 Oct 2023 10:49:35 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"Validation Failed\"\n}"
+				}
+			]
+		},
+		{
+			"name": "get addresses",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": [
+				{
+					"name": "display all user addresses",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{addressUrl}}/list",
+							"host": [
+								"{{addressUrl}}"
+							],
+							"path": [
+								"list"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "OPTIONS, GET, POST, PUT, PATCH, DELETE"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Content-Type, Authorization"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "331"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"14b-qH8lsJKVbJ3UvQ4eQSTigM5XZwo\""
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 27 Oct 2023 06:48:15 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"_id\": \"653aa5a6accc6e36775ff2a3\",\n        \"label\": \"Home\",\n        \"completeAddress\": \"zook mosbeh\",\n        \"location\": {\n            \"coordinates\": [\n                5,\n                6\n            ],\n            \"type\": \"Point\"\n        },\n        \"userId\": \"6539fae9bc694f8bcfce6629\"\n    },\n    {\n        \"_id\": \"653aa5bfaccc6e36775ff2a5\",\n        \"label\": \"Home2\",\n        \"completeAddress\": \"Baskinta\",\n        \"location\": {\n            \"coordinates\": [\n                8,\n                9\n            ],\n            \"type\": \"Point\"\n        },\n        \"userId\": \"6539fae9bc694f8bcfce6629\"\n    }\n]"
+				},
+				{
+					"name": "filter by addressId",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{addressUrl}}/list?addressId=653aa5a6accc6e36775ff2a3",
+							"host": [
+								"{{addressUrl}}"
+							],
+							"path": [
+								"list"
+							],
+							"query": [
+								{
+									"key": "addressId",
+									"value": "653aa5a6accc6e36775ff2a3"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "OPTIONS, GET, POST, PUT, PATCH, DELETE"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Content-Type, Authorization"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "167"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"a7-KtWgrcRhzBm1se/FfAv/pfgmNGY\""
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 27 Oct 2023 06:50:12 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"_id\": \"653aa5a6accc6e36775ff2a3\",\n        \"label\": \"Home\",\n        \"completeAddress\": \"zook mosbeh\",\n        \"location\": {\n            \"coordinates\": [\n                5,\n                6\n            ],\n            \"type\": \"Point\"\n        },\n        \"userId\": \"6539fae9bc694f8bcfce6629\"\n    }\n]"
+				},
+				{
+					"name": "validation failed",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{addressUrl}}/list?addressId=2",
+							"host": [
+								"{{addressUrl}}"
+							],
+							"path": [
+								"list"
+							],
+							"query": [
+								{
+									"key": "addressId",
+									"value": "2"
+								}
+							]
+						}
+					},
+					"status": "Bad Request",
+					"code": 400,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "OPTIONS, GET, POST, PUT, PATCH, DELETE"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Content-Type, Authorization"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "31"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"1f-hXr48JXw9+c1abn9e3ChGFhAs70\""
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 30 Oct 2023 10:50:29 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"Validation Failed\"\n}"
+				}
+			]
+		},
+		{
+			"name": "update address",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"label\":\"Home 2\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{addressUrl}}?addressId=653aa5bfaccc6e36775ff2a5",
+					"host": [
+						"{{addressUrl}}"
+					],
+					"query": [
+						{
+							"key": "addressId",
+							"value": "653aa5bfaccc6e36775ff2a5"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Successfully updating an address",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"label\":\"Home 2\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{addressUrl}}?addressId=653aa5bfaccc6e36775ff2a5",
+							"host": [
+								"{{addressUrl}}"
+							],
+							"query": [
+								{
+									"key": "addressId",
+									"value": "653aa5bfaccc6e36775ff2a5"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "OPTIONS, GET, POST, PUT, PATCH, DELETE"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Content-Type, Authorization"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "92"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"5c-XE4LqSKK8lMBgnDPfq7vp2yCSG8\""
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 27 Oct 2023 06:54:23 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"acknowledged\": true,\n    \"modifiedCount\": 1,\n    \"upsertedId\": null,\n    \"upsertedCount\": 0,\n    \"matchedCount\": 1\n}"
+				},
+				{
+					"name": "update address of other user",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"label\":\"Home 2\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{addressUrl}}?addressId=653aa5bfaccc6e36775ff2a5",
+							"host": [
+								"{{addressUrl}}"
+							],
+							"query": [
+								{
+									"key": "addressId",
+									"value": "653aa5bfaccc6e36775ff2a5"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "OPTIONS, GET, POST, PUT, PATCH, DELETE"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Content-Type, Authorization"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "92"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"5c-1LCrZulBgUWq5mxCUtrw/peBHVs\""
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 27 Oct 2023 06:56:21 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"acknowledged\": true,\n    \"modifiedCount\": 0,\n    \"upsertedId\": null,\n    \"upsertedCount\": 0,\n    \"matchedCount\": 0\n}"
+				},
+				{
+					"name": "validation failed",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"location\":{\r\n        \r\n    }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{addressUrl}}?addressId=653aa5bfaccc6e36775ff2a5",
+							"host": [
+								"{{addressUrl}}"
+							],
+							"query": [
+								{
+									"key": "addressId",
+									"value": "653aa5bfaccc6e36775ff2a5"
+								}
+							]
+						}
+					},
+					"status": "Bad Request",
+					"code": 400,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "OPTIONS, GET, POST, PUT, PATCH, DELETE"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Content-Type, Authorization"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "31"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"1f-hXr48JXw9+c1abn9e3ChGFhAs70\""
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 30 Oct 2023 10:51:45 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"Validation Failed\"\n}"
+				},
+				{
+					"name": "updating address in pending order",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"location\":{\r\n        \"coordinates\":[5,6]\r\n    }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{addressUrl}}?addressId=653b7af1f54a7676d5e143fe",
+							"host": [
+								"{{addressUrl}}"
+							],
+							"query": [
+								{
+									"key": "addressId",
+									"value": "653b7af1f54a7676d5e143fe"
+								}
+							]
+						}
+					},
+					"status": "Forbidden",
+					"code": 403,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "OPTIONS, GET, POST, PUT, PATCH, DELETE"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Content-Type, Authorization"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "23"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"17-t66ykm1tLqNPfWDnZa+sQL1+4+c\""
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 30 Oct 2023 10:53:41 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"forbidden\"\n}"
+				}
+			]
+		},
+		{
+			"name": "delete address",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "{{addressUrl}}?addressId=653aa5bfaccc6e36775ff2a5",
+					"host": [
+						"{{addressUrl}}"
+					],
+					"query": [
+						{
+							"key": "addressId",
+							"value": "653aa5bfaccc6e36775ff2a5"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Successfully deleting address",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{addressUrl}}?addressId=653b5f7ff54a7676d5e1438f",
+							"host": [
+								"{{addressUrl}}"
+							],
+							"query": [
+								{
+									"key": "addressId",
+									"value": "653b5f7ff54a7676d5e1438f"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "OPTIONS, GET, POST, PUT, PATCH, DELETE"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Content-Type, Authorization"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "38"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"26-fgR5yLHQ1Hpp6zDESHaY9wJreYE\""
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 27 Oct 2023 06:58:39 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"acknowledged\": true,\n    \"deletedCount\": 1\n}"
+				},
+				{
+					"name": "deleting address in a pending order",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{addressUrl}}?addressId=653b7af1f54a7676d5e143fe",
+							"host": [
+								"{{addressUrl}}"
+							],
+							"query": [
+								{
+									"key": "addressId",
+									"value": "653b7af1f54a7676d5e143fe"
+								}
+							]
+						}
+					},
+					"status": "Forbidden",
+					"code": 403,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "OPTIONS, GET, POST, PUT, PATCH, DELETE"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Content-Type, Authorization"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "23"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"17-t66ykm1tLqNPfWDnZa+sQL1+4+c\""
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 30 Oct 2023 10:52:39 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"forbidden\"\n}"
+				},
+				{
+					"name": "validation failed",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{addressUrl}}?addressId=653b7af1f54",
+							"host": [
+								"{{addressUrl}}"
+							],
+							"query": [
+								{
+									"key": "addressId",
+									"value": "653b7af1f54"
+								}
+							]
+						}
+					},
+					"status": "Bad Request",
+					"code": 400,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "OPTIONS, GET, POST, PUT, PATCH, DELETE"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Content-Type, Authorization"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "31"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"1f-hXr48JXw9+c1abn9e3ChGFhAs70\""
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 30 Oct 2023 10:55:55 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"Validation Failed\"\n}"
+				},
+				{
+					"name": "delete address of other user",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{addressUrl}}?addressId=653aa5bfaccc6e36775ff2a5",
+							"host": [
+								"{{addressUrl}}"
+							],
+							"query": [
+								{
+									"key": "addressId",
+									"value": "653aa5bfaccc6e36775ff2a5"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "OPTIONS, GET, POST, PUT, PATCH, DELETE"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Content-Type, Authorization"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "38"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"26-cNC5LnJlaAZUicKAN6xhqN0RI9I\""
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 30 Oct 2023 11:01:30 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"acknowledged\": true,\n    \"deletedCount\": 0\n}"
+				}
+			]
+		}
+	],
+	"variable": [
+		{
+			"key": "addressUrl",
+			"value": "http://localhost:8080/address/"
+		}
+	]
+}

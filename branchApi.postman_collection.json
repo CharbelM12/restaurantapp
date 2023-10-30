@@ -1,0 +1,854 @@
+{
+	"info": {
+		"_postman_id": "b7809525-0f22-4f02-a963-21bcf3b6dd2f",
+		"name": "branchApi",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "29210119"
+	},
+	"item": [
+		{
+			"name": "create branch",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"branchName\":\"Jdeideh Branch\",\r\n    \"location\":{\r\n        \"coordinates\":[45,55]\r\n    },\r\n    \"phoneNumber\":\"09111222\",\r\n    \"services\":[\"Dining\",\"Entertainment\",\"special events\"]\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{branchUrl}}",
+					"host": [
+						"{{branchUrl}}"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "successfully creating branch",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"branchName\":\"Jdeideh Branch\",\r\n    \"location\":{\r\n        \"coordinates\":[45,55]\r\n    },\r\n    \"phoneNumber\":\"09111222\",\r\n    \"services\":[\"Dining\",\"Entertainment\",\"special events\"]\r\n\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{branchUrl}}",
+							"host": [
+								"{{branchUrl}}"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "plain",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "OPTIONS, GET, POST, PUT, PATCH, DELETE"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Content-Type, Authorization"
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 27 Oct 2023 07:10:04 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						},
+						{
+							"key": "Content-Length",
+							"value": "0"
+						}
+					],
+					"cookie": [],
+					"body": null
+				},
+				{
+					"name": "validation failed",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"branchName\":\"Jdeideh Branch\",\r\n    \"location\":{\r\n        \"coordinates\":[45,55]\r\n    },\r\n    \"phoneNumber\":\"09111222\",\r\n    \"services\":\"Dining ,Entertainment,special events\"\r\n\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{branchUrl}}",
+							"host": [
+								"{{branchUrl}}"
+							]
+						}
+					},
+					"status": "Bad Request",
+					"code": 400,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "OPTIONS, GET, POST, PUT, PATCH, DELETE"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Content-Type, Authorization"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "31"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"1f-hXr48JXw9+c1abn9e3ChGFhAs70\""
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 30 Oct 2023 10:41:22 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"Validation Failed\"\n}"
+				}
+			]
+		},
+		{
+			"name": "update branch",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"location\":{\r\n        \"coordinates\":[5.1,6.1]\r\n    }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{branchUrl}}?branchId=653b61e2f54a7676d5e14394",
+					"host": [
+						"{{branchUrl}}"
+					],
+					"query": [
+						{
+							"key": "branchId",
+							"value": "653b61e2f54a7676d5e14394"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "successfully updating branch",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"location\":{\r\n        \"coordinates\":[5.1,6.1]\r\n    }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{branchUrl}}?branchId=653b61e2f54a7676d5e14394",
+							"host": [
+								"{{branchUrl}}"
+							],
+							"query": [
+								{
+									"key": "branchId",
+									"value": "653b61e2f54a7676d5e14394"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "OPTIONS, GET, POST, PUT, PATCH, DELETE"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Content-Type, Authorization"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "92"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"5c-XE4LqSKK8lMBgnDPfq7vp2yCSG8\""
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 27 Oct 2023 07:18:24 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"acknowledged\": true,\n    \"modifiedCount\": 1,\n    \"upsertedId\": null,\n    \"upsertedCount\": 0,\n    \"matchedCount\": 1\n}"
+				},
+				{
+					"name": "validation failed",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"location\":{\r\n        \"coordinates\":5.1\r\n    }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{branchUrl}}?branchId=653b61e2f54a7676d5e14394",
+							"host": [
+								"{{branchUrl}}"
+							],
+							"query": [
+								{
+									"key": "branchId",
+									"value": "653b61e2f54a7676d5e14394"
+								}
+							]
+						}
+					},
+					"status": "Bad Request",
+					"code": 400,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "OPTIONS, GET, POST, PUT, PATCH, DELETE"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Content-Type, Authorization"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "31"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"1f-hXr48JXw9+c1abn9e3ChGFhAs70\""
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 30 Oct 2023 10:42:09 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"Validation Failed\"\n}"
+				},
+				{
+					"name": "updating branch in pending order",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"location\":{\r\n        \"coordinates\":[5.1,2]\r\n    }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{branchUrl}}?branchId=653b624cf54a7676d5e1439a",
+							"host": [
+								"{{branchUrl}}"
+							],
+							"query": [
+								{
+									"key": "branchId",
+									"value": "653b624cf54a7676d5e1439a"
+								}
+							]
+						}
+					},
+					"status": "Forbidden",
+					"code": 403,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "OPTIONS, GET, POST, PUT, PATCH, DELETE"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Content-Type, Authorization"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "23"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"17-t66ykm1tLqNPfWDnZa+sQL1+4+c\""
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 30 Oct 2023 10:48:30 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"forbidden\"\n}"
+				}
+			]
+		},
+		{
+			"name": "delete branch",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "{{branchUrl}}?branchId=653b623cf54a7676d5e14397",
+					"host": [
+						"{{branchUrl}}"
+					],
+					"query": [
+						{
+							"key": "branchId",
+							"value": "653b623cf54a7676d5e14397"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "successfully deleting branch",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{branchUrl}}?branchId=653b623cf54a7676d5e14397",
+							"host": [
+								"{{branchUrl}}"
+							],
+							"query": [
+								{
+									"key": "branchId",
+									"value": "653b623cf54a7676d5e14397"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "OPTIONS, GET, POST, PUT, PATCH, DELETE"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Content-Type, Authorization"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "38"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"26-fgR5yLHQ1Hpp6zDESHaY9wJreYE\""
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 27 Oct 2023 07:25:05 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"acknowledged\": true,\n    \"deletedCount\": 1\n}"
+				},
+				{
+					"name": "validation failed",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{branchUrl}}?branchId=653b623cf",
+							"host": [
+								"{{branchUrl}}"
+							],
+							"query": [
+								{
+									"key": "branchId",
+									"value": "653b623cf"
+								}
+							]
+						}
+					},
+					"status": "Bad Request",
+					"code": 400,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "OPTIONS, GET, POST, PUT, PATCH, DELETE"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Content-Type, Authorization"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "31"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"1f-hXr48JXw9+c1abn9e3ChGFhAs70\""
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 30 Oct 2023 10:42:44 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"Validation Failed\"\n}"
+				},
+				{
+					"name": "deleting branch in pending order",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{branchUrl}}?branchId=653b624cf54a7676d5e1439a",
+							"host": [
+								"{{branchUrl}}"
+							],
+							"query": [
+								{
+									"key": "branchId",
+									"value": "653b624cf54a7676d5e1439a"
+								}
+							]
+						}
+					},
+					"status": "Forbidden",
+					"code": 403,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "OPTIONS, GET, POST, PUT, PATCH, DELETE"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Content-Type, Authorization"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "23"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"17-t66ykm1tLqNPfWDnZa+sQL1+4+c\""
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 30 Oct 2023 10:47:46 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"forbidden\"\n}"
+				}
+			]
+		},
+		{
+			"name": "get branches",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": [
+				{
+					"name": "get all branches",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{branchUrl}}/list",
+							"host": [
+								"{{branchUrl}}"
+							],
+							"path": [
+								"list"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "OPTIONS, GET, POST, PUT, PATCH, DELETE"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Content-Type, Authorization"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "537"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"219-BTaTUdmpKYztHe17qNn/z5rHQwQ\""
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 27 Oct 2023 07:26:47 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"_id\": \"653b61e2f54a7676d5e14394\",\n        \"branchName\": \"Zook Branch\",\n        \"location\": {\n            \"type\": \"Point\",\n            \"coordinates\": [\n                5.1,\n                6.1\n            ]\n        },\n        \"phoneNumber\": \"09111222\",\n        \"services\": [\n            \"Dining\",\n            \"loyalty program\",\n            \"special events\"\n        ],\n        \"isOpen\": true,\n        \"createdBy\": \"6539fae9bc694f8bcfce6629\",\n        \"updatedBy\": \"6539fae9bc694f8bcfce6629\"\n    },\n    {\n        \"_id\": \"653b624cf54a7676d5e1439a\",\n        \"branchName\": \"Jdeideh Branch\",\n        \"location\": {\n            \"coordinates\": [\n                45,\n                55\n            ],\n            \"type\": \"Point\"\n        },\n        \"phoneNumber\": \"09111222\",\n        \"services\": [\n            \"Dining\",\n            \"Entertainment\",\n            \"special events\"\n        ],\n        \"isOpen\": true,\n        \"createdBy\": \"6539fae9bc694f8bcfce6629\"\n    }\n]"
+				},
+				{
+					"name": "filter by branchId",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{branchUrl}}/list?branchId=653b61e2f54a7676d5e14394",
+							"host": [
+								"{{branchUrl}}"
+							],
+							"path": [
+								"list"
+							],
+							"query": [
+								{
+									"key": "branchId",
+									"value": "653b61e2f54a7676d5e14394"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "OPTIONS, GET, POST, PUT, PATCH, DELETE"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Content-Type, Authorization"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "289"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"121-4Q4xfFlLXKZjVNdjiTf+jZeE/to\""
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 27 Oct 2023 07:27:41 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"_id\": \"653b61e2f54a7676d5e14394\",\n        \"branchName\": \"Zook Branch\",\n        \"location\": {\n            \"type\": \"Point\",\n            \"coordinates\": [\n                5.1,\n                6.1\n            ]\n        },\n        \"phoneNumber\": \"09111222\",\n        \"services\": [\n            \"Dining\",\n            \"loyalty program\",\n            \"special events\"\n        ],\n        \"isOpen\": true,\n        \"createdBy\": \"6539fae9bc694f8bcfce6629\",\n        \"updatedBy\": \"6539fae9bc694f8bcfce6629\"\n    }\n]"
+				},
+				{
+					"name": "validation failed",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{branchUrl}}/list?branchId=1",
+							"host": [
+								"{{branchUrl}}"
+							],
+							"path": [
+								"list"
+							],
+							"query": [
+								{
+									"key": "branchId",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"status": "Bad Request",
+					"code": 400,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "OPTIONS, GET, POST, PUT, PATCH, DELETE"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Content-Type, Authorization"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "31"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"1f-hXr48JXw9+c1abn9e3ChGFhAs70\""
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 30 Oct 2023 10:44:35 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"Validation Failed\"\n}"
+				}
+			]
+		}
+	],
+	"variable": [
+		{
+			"key": "branchUrl",
+			"value": "http://localhost:8080/branch/"
+		}
+	]
+}

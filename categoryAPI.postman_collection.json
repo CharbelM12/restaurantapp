@@ -1,0 +1,1218 @@
+{
+	"info": {
+		"_postman_id": "109ed85e-70dd-4558-b09c-d801165cb8c0",
+		"name": "categoryAPI",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "29210119"
+	},
+	"item": [
+		{
+			"name": "create category",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{accessToken}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\":\"Minivan\",\r\n    \"description\":\"Minivans are functionally similar to regular vans, although they are smaller overall and are more aerodynamic as a result\",\r\n    \"seatingCapacity\":8,\r\n    \"order\":5\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{categoryURL}}",
+					"host": [
+						"{{categoryURL}}"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Successful creation",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": " {\r\n          \"categoryName\":  \"Beverages\",\r\n        \"categoryDescription\":\"Our selection of beverages.\",\r\n        \"displayOrder\": 4\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{categoryURL}}",
+							"host": [
+								"{{categoryURL}}"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "plain",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "OPTIONS, GET, POST, PUT, PATCH, DELETE"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Content-Type, Authorization"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 26 Oct 2023 07:46:26 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						},
+						{
+							"key": "Content-Length",
+							"value": "0"
+						}
+					],
+					"cookie": [],
+					"body": null
+				},
+				{
+					"name": "validation failed",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": " {\r\n          \"categoryName\":  \"Beverages\",\r\n        \"categoryDescription\":\"Our selection of beverages.\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{categoryURL}}",
+							"host": [
+								"{{categoryURL}}"
+							]
+						}
+					},
+					"status": "Bad Request",
+					"code": 400,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "OPTIONS, GET, POST, PUT, PATCH, DELETE"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Content-Type, Authorization"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "31"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"1f-hXr48JXw9+c1abn9e3ChGFhAs70\""
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 27 Oct 2023 10:11:33 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"Validation Failed\"\n}"
+				},
+				{
+					"name": "non admin user forbidden",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": " {\r\n          \"categoryName\":  \"Beverages\",\r\n        \"categoryDescription\":\"Our selection of beverages.\",\r\n        \"displayOrder\":1\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{categoryURL}}",
+							"host": [
+								"{{categoryURL}}"
+							]
+						}
+					},
+					"status": "Forbidden",
+					"code": 403,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "OPTIONS, GET, POST, PUT, PATCH, DELETE"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Content-Type, Authorization"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "23"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"17-t66ykm1tLqNPfWDnZa+sQL1+4+c\""
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 30 Oct 2023 11:41:47 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"forbidden\"\n}"
+				}
+			]
+		},
+		{
+			"name": "update category",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImNoYXJiZWwxbUBob3RtYWlsLmNvbSIsInVzZXJJZCI6IjY0ZTVkODg3MjllMDVhNmEzZTUyNjQ3MSIsImlhdCI6MTY5Mjc4NTk1OCwiZXhwIjoxNjkyNzk2NzU4fQ.eUFYfY2Zc1PTMlN4Tggo2negDrlO5mhWDVicdE4qG98",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"categoryName\":\"Main Dishes\",\r\n    \"categoryDescription\":\"Our main course dishes from around the world.\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{categoryURL}}?categoryId=653a188ecc4c6e5ddd85b790",
+					"host": [
+						"{{categoryURL}}"
+					],
+					"query": [
+						{
+							"key": "categoryId",
+							"value": "653a188ecc4c6e5ddd85b790"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Successfully updating a category",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"categoryName\":\"Main Dishes\",\r\n    \"categoryDescription\":\"Our main course dishes from around the world.\"\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{categoryURL}}?categoryId=653a188ecc4c6e5ddd85b790",
+							"host": [
+								"{{categoryURL}}"
+							],
+							"query": [
+								{
+									"key": "categoryId",
+									"value": "653a188ecc4c6e5ddd85b790"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "OPTIONS, GET, POST, PUT, PATCH, DELETE"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Content-Type, Authorization"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "92"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"5c-XE4LqSKK8lMBgnDPfq7vp2yCSG8\""
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 26 Oct 2023 20:40:35 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"acknowledged\": true,\n    \"modifiedCount\": 1,\n    \"upsertedId\": null,\n    \"upsertedCount\": 0,\n    \"matchedCount\": 1\n}"
+				},
+				{
+					"name": "validation failed",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"categoryName\":\"Main Dishes\",\r\n    \"categoryDescription\":\"Our main course dishes from around the world.\",\r\n    \"displayOrder\":\"four\"\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{categoryURL}}?categoryId=653a188ecc4c6e5ddd85b790",
+							"host": [
+								"{{categoryURL}}"
+							],
+							"query": [
+								{
+									"key": "categoryId",
+									"value": "653a188ecc4c6e5ddd85b790"
+								}
+							]
+						}
+					},
+					"status": "Bad Request",
+					"code": 400,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "OPTIONS, GET, POST, PUT, PATCH, DELETE"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Content-Type, Authorization"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "31"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"1f-hXr48JXw9+c1abn9e3ChGFhAs70\""
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 27 Oct 2023 10:12:34 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"Validation Failed\"\n}"
+				}
+			]
+		},
+		{
+			"name": "get categories",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{categoryURL}}/list",
+					"host": [
+						"{{categoryURL}}"
+					],
+					"path": [
+						"list"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "get all categories",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{categoryURL}}/list",
+							"host": [
+								"{{categoryURL}}"
+							],
+							"path": [
+								"list"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "OPTIONS, GET, POST, PUT, PATCH, DELETE"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Content-Type, Authorization"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "790"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"316-GBdLj/tF28h6/I+I4/WtR521YzM\""
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 26 Oct 2023 20:43:25 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"_id\": \"653a183dcc4c6e5ddd85b78d\",\n        \"categoryName\": \"Appetizers\",\n        \"categoryDescription\": \"Start your meal with delicious appetizers.\",\n        \"displayOrder\": 1,\n        \"createdBy\": \"6539fae9bc694f8bcfce6629\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"653a188ecc4c6e5ddd85b790\",\n        \"categoryName\": \"Main Dishes\",\n        \"categoryDescription\": \"Our main course dishes from around the world.\",\n        \"displayOrder\": 2,\n        \"createdBy\": \"6539fae9bc694f8bcfce6629\",\n        \"__v\": 0,\n        \"updatedBy\": \"6539fae9bc694f8bcfce6629\"\n    },\n    {\n        \"_id\": \"653a18f2cc4c6e5ddd85b793\",\n        \"categoryName\": \"Desserts\",\n        \"categoryDescription\": \"our delicious dessert options.\",\n        \"displayOrder\": 3,\n        \"createdBy\": \"6539fae9bc694f8bcfce6629\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"653a1952cc4c6e5ddd85b796\",\n        \"categoryName\": \"Beverages\",\n        \"categoryDescription\": \"Our selection of beverages.\",\n        \"displayOrder\": 4,\n        \"createdBy\": \"6539fae9bc694f8bcfce6629\",\n        \"__v\": 0\n    }\n]"
+				},
+				{
+					"name": "filter by categoryId",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{categoryURL}}/list?categoryId=653a18f2cc4c6e5ddd85b793",
+							"host": [
+								"{{categoryURL}}"
+							],
+							"path": [
+								"list"
+							],
+							"query": [
+								{
+									"key": "categoryId",
+									"value": "653a18f2cc4c6e5ddd85b793"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "OPTIONS, GET, POST, PUT, PATCH, DELETE"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Content-Type, Authorization"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "181"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"b5-1A0pIYBSWHJBGsgbnrPZNvAKEZo\""
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 26 Oct 2023 20:45:36 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"_id\": \"653a18f2cc4c6e5ddd85b793\",\n        \"categoryName\": \"Desserts\",\n        \"categoryDescription\": \"our delicious dessert options.\",\n        \"displayOrder\": 3,\n        \"createdBy\": \"6539fae9bc694f8bcfce6629\",\n        \"__v\": 0\n    }\n]"
+				},
+				{
+					"name": "non admin user forbidden",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{categoryURL}}/list?categoryId=653a18f2cc4c6e5ddd85b793",
+							"host": [
+								"{{categoryURL}}"
+							],
+							"path": [
+								"list"
+							],
+							"query": [
+								{
+									"key": "categoryId",
+									"value": "653a18f2cc4c6e5ddd85b793"
+								}
+							]
+						}
+					},
+					"status": "Forbidden",
+					"code": 403,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "OPTIONS, GET, POST, PUT, PATCH, DELETE"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Content-Type, Authorization"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "23"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"17-t66ykm1tLqNPfWDnZa+sQL1+4+c\""
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 30 Oct 2023 11:04:45 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"forbidden\"\n}"
+				},
+				{
+					"name": "validation failed",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{categoryURL}}/list?categoryId=653a18f2cc4c6e",
+							"host": [
+								"{{categoryURL}}"
+							],
+							"path": [
+								"list"
+							],
+							"query": [
+								{
+									"key": "categoryId",
+									"value": "653a18f2cc4c6e"
+								}
+							]
+						}
+					},
+					"status": "Bad Request",
+					"code": 400,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "OPTIONS, GET, POST, PUT, PATCH, DELETE"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Content-Type, Authorization"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "31"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"1f-hXr48JXw9+c1abn9e3ChGFhAs70\""
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 30 Oct 2023 11:09:40 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"Validation Failed\"\n}"
+				}
+			]
+		},
+		{
+			"name": "delete category",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "{{categoryURL}}?categoryId=653ad0a05d8105eb1342fd9a",
+					"host": [
+						"{{categoryURL}}"
+					],
+					"query": [
+						{
+							"key": "categoryId",
+							"value": "653ad0a05d8105eb1342fd9a"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Successfully deletion of category",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{categoryURL}}?categoryId=653ad0a05d8105eb1342fd9a",
+							"host": [
+								"{{categoryURL}}"
+							],
+							"query": [
+								{
+									"key": "categoryId",
+									"value": "653ad0a05d8105eb1342fd9a"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "OPTIONS, GET, POST, PUT, PATCH, DELETE"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Content-Type, Authorization"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "38"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"26-fgR5yLHQ1Hpp6zDESHaY9wJreYE\""
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 26 Oct 2023 20:49:28 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"acknowledged\": true,\n    \"deletedCount\": 1\n}"
+				},
+				{
+					"name": "the deletion of the category that has items forbidden",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{categoryURL}}?categoryId=653a1952cc4c6e5ddd85b796",
+							"host": [
+								"{{categoryURL}}"
+							],
+							"query": [
+								{
+									"key": "categoryId",
+									"value": "653a1952cc4c6e5ddd85b796"
+								}
+							]
+						}
+					},
+					"status": "Forbidden",
+					"code": 403,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "OPTIONS, GET, POST, PUT, PATCH, DELETE"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Content-Type, Authorization"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "23"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"17-t66ykm1tLqNPfWDnZa+sQL1+4+c\""
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 26 Oct 2023 20:51:48 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"forbidden\"\n}"
+				},
+				{
+					"name": "validation failed",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{categoryURL}}?categoryId=2",
+							"host": [
+								"{{categoryURL}}"
+							],
+							"query": [
+								{
+									"key": "categoryId",
+									"value": "2"
+								}
+							]
+						}
+					},
+					"status": "Bad Request",
+					"code": 400,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "OPTIONS, GET, POST, PUT, PATCH, DELETE"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Content-Type, Authorization"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "31"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"1f-hXr48JXw9+c1abn9e3ChGFhAs70\""
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 27 Oct 2023 10:13:31 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"Validation Failed\"\n}"
+				}
+			]
+		},
+		{
+			"name": "sort categories",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": [
+				{
+					"name": "Successful reorder",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "[\r\n    {\r\n        \"_id\":\"653a188ecc4c6e5ddd85b790\",\r\n        \"displayOrder\":2\r\n    },{\r\n        \"_id\":\"653a183dcc4c6e5ddd85b78d\",\r\n        \"displayOrder\":1\r\n    },{\r\n        \"_id\":\"653a1952cc4c6e5ddd85b796\",\r\n        \"displayOrder\":3\r\n    },{\r\n        \"_id\":\"653a18f2cc4c6e5ddd85b793\",\r\n        \"displayOrder\":4\r\n    }\r\n]",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{categoryURL}}/reorder",
+							"host": [
+								"{{categoryURL}}"
+							],
+							"path": [
+								"reorder"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "plain",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "OPTIONS, GET, POST, PUT, PATCH, DELETE"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Content-Type, Authorization"
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 27 Oct 2023 09:36:26 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						},
+						{
+							"key": "Content-Length",
+							"value": "0"
+						}
+					],
+					"cookie": [],
+					"body": null
+				},
+				{
+					"name": "Validation failed",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "[\r\n    {\r\n        \"_id\":\"653a188ecc4c6e5ddd85b790\"\r\n    },{\r\n        \"_id\":\"653a183dcc4c6e5ddd85b78d\",\r\n        \"displayOrder\":2\r\n    },{\r\n        \"_id\":\"653a1952cc4c6e5ddd85b796\",\r\n        \"displayOrder\":3\r\n    },{\r\n        \"_id\":\"653a18f2cc4c6e5ddd85b793\",\r\n        \"displayOrder\":4\r\n    }\r\n]",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{categoryURL}}/reorder",
+							"host": [
+								"{{categoryURL}}"
+							],
+							"path": [
+								"reorder"
+							]
+						}
+					},
+					"status": "Bad Request",
+					"code": 400,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "OPTIONS, GET, POST, PUT, PATCH, DELETE"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Content-Type, Authorization"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "31"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"1f-hXr48JXw9+c1abn9e3ChGFhAs70\""
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 27 Oct 2023 09:37:13 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"Validation Failed\"\n}"
+				}
+			]
+		},
+		{
+			"name": "add image",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "imageUrl",
+							"type": "file",
+							"src": "/C:/Users/charb/OneDrive/Desktop/Main dishes.jpg"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{categoryURL}}image?categoryId=653a188ecc4c6e5ddd85b790",
+					"host": [
+						"{{categoryURL}}image"
+					],
+					"query": [
+						{
+							"key": "categoryId",
+							"value": "653a188ecc4c6e5ddd85b790"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Successfully adding image",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "imageUrl",
+									"type": "file",
+									"src": "/C:/Users/charb/OneDrive/Desktop/Main dishes.jpg"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{categoryURL}}image?categoryId=653a188ecc4c6e5ddd85b790",
+							"host": [
+								"{{categoryURL}}image"
+							],
+							"query": [
+								{
+									"key": "categoryId",
+									"value": "653a188ecc4c6e5ddd85b790"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "OPTIONS, GET, POST, PUT, PATCH, DELETE"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Content-Type, Authorization"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "92"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"5c-XE4LqSKK8lMBgnDPfq7vp2yCSG8\""
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 27 Oct 2023 09:44:58 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"acknowledged\": true,\n    \"modifiedCount\": 1,\n    \"upsertedId\": null,\n    \"upsertedCount\": 0,\n    \"matchedCount\": 1\n}"
+				}
+			]
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "categoryURL",
+			"value": "https://localhost8080/category"
+		}
+	]
+}
