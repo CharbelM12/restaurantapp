@@ -230,6 +230,16 @@ describe("orderService", () => {
         expect(error.message).toEqual(errorHandler["addressMissing"].message);
       }
     });
+    it("should throw a forbidden error if the user put an address not present in his addresses", async () => {
+      item.findById.mockResolvedValueOnce(mockItem);
+      address.findById.mockResolvedValueOnce(mockAddress);
+      try {
+        await orderService.createOrder(mockOrder, new mongoose.Types.ObjectId());
+      } catch (error) {
+        expect(error.status).toEqual(errorHandler["forbidden"].status);
+        expect(error.message).toEqual(errorHandler["forbidden"].message);
+      }
+    });
     it("should throw an error when a restaurant branch within 5m radius is not found", async () => {
       item.findById.mockResolvedValueOnce(mockItem);
       address.findById.mockResolvedValueOnce(mockAddress);
@@ -408,7 +418,16 @@ describe("orderService", () => {
         expect(error.message).toEqual(errorHandler["addressMissing"].message);
       }
     });
-
+    it("should throw a forbidden error if the user put an address not present in his addresses", async () => {
+      item.findById.mockResolvedValueOnce(mockItem);
+      address.findById.mockResolvedValueOnce(mockAddress);
+      try {
+        await orderService.createOrder(mockOrder, new mongoose.Types.ObjectId());
+      } catch (error) {
+        expect(error.status).toEqual(errorHandler["forbidden"].status);
+        expect(error.message).toEqual(errorHandler["forbidden"].message);
+      }
+    });
     it("should throw an error when the branch is missing", async () => {
       order.findById.mockResolvedValueOnce(mockOrder);
       item.findById.mockResolvedValueOnce(mockItem);

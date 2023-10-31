@@ -88,7 +88,12 @@ class OrderService {
         status: errorHandler["addressMissing"].status,
         message: errorHandler["addressMissing"].message,
       };
-    } else {
+    } else if(foundAddress.userId.toString() !== userId.toString()){
+      throw {
+        status: errorHandler["forbidden"].status,
+        message: errorHandler["forbidden"].message,
+      };
+    }else {
       const selectedBranch = await branch.findOne({
         isOpen: orderConfig.branchIsOpen,
         location: {
@@ -178,6 +183,11 @@ class OrderService {
           throw {
             status: errorHandler["addressMissing"].status,
             message: errorHandler["addressMissing"].message,
+          };
+        } else if(foundAddress.userId.toString() !== userId.toString()){
+          throw {
+            status: errorHandler["forbidden"].status,
+            message: errorHandler["forbidden"].message,
           };
         } else {
           const selectedBranch = await branch.findOne({
